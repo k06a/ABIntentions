@@ -237,9 +237,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="whV-Wx-K8y" kind="unwind" identifier="segue_back_from_type" unwindAction="back:" id="p4u-j4-RmP"/>
-                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -248,7 +245,21 @@
                             <outlet property="delegate" destination="IvC-dB-lak" id="PuH-4P-tjD"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Select Type" id="VyU-FL-zrR"/>
+                    <navigationItem key="navigationItem" title="Select Type" id="VyU-FL-zrR">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="8es-tZ-BOX">
+                            <button key="customView" hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="h3l-Mw-hpi">
+                                <rect key="frame" x="233" y="5" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="whV-Wx-K8y" kind="unwind" identifier="segue_back_from_type" unwindAction="back:" id="mSs-B6-Nsd"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="radioIntention" destination="CJ0-J5-U8P" id="jxX-oV-KeB"/>
                     </connections>
