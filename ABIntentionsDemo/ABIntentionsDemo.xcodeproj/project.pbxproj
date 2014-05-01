@@ -27,6 +27,9 @@
 		253F91A1190D809000F7FC93 /* ABDelegateArrayIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F91A0190D809000F7FC93 /* ABDelegateArrayIntention.m */; };
 		253F91A4190D899800F7FC93 /* ABFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F91A3190D899800F7FC93 /* ABFirstViewController.m */; };
 		253F91A7190D89D600F7FC93 /* ABTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F91A6190D89D600F7FC93 /* ABTypeViewController.m */; };
+		25889424190E1ADB00558AD1 /* ABTableViewDelegateHideRowsOnActionIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25889423190E1ADB00558AD1 /* ABTableViewDelegateHideRowsOnActionIntention.m */; };
+		2588943F19116FC300558AD1 /* ABMapViewZoomInOnSearchBarEnteredIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2588943C19116FC300558AD1 /* ABMapViewZoomInOnSearchBarEnteredIntention.m */; };
+		2588944019116FC300558AD1 /* ABWebViewLoadUrlIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2588943E19116FC300558AD1 /* ABWebViewLoadUrlIntention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,12 @@
 		253F91A3190D899800F7FC93 /* ABFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFirstViewController.m; sourceTree = "<group>"; };
 		253F91A5190D89D600F7FC93 /* ABTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTypeViewController.h; sourceTree = "<group>"; };
 		253F91A6190D89D600F7FC93 /* ABTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTypeViewController.m; sourceTree = "<group>"; };
+		25889422190E1ADB00558AD1 /* ABTableViewDelegateHideRowsOnActionIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABTableViewDelegateHideRowsOnActionIntention.h; path = ../../ABTableViewDelegateHideRowsOnActionIntention.h; sourceTree = "<group>"; };
+		25889423190E1ADB00558AD1 /* ABTableViewDelegateHideRowsOnActionIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABTableViewDelegateHideRowsOnActionIntention.m; path = ../../ABTableViewDelegateHideRowsOnActionIntention.m; sourceTree = "<group>"; };
+		2588943B19116FC300558AD1 /* ABMapViewZoomInOnSearchBarEnteredIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABMapViewZoomInOnSearchBarEnteredIntention.h; path = ../../ABMapViewZoomInOnSearchBarEnteredIntention.h; sourceTree = "<group>"; };
+		2588943C19116FC300558AD1 /* ABMapViewZoomInOnSearchBarEnteredIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABMapViewZoomInOnSearchBarEnteredIntention.m; path = ../../ABMapViewZoomInOnSearchBarEnteredIntention.m; sourceTree = "<group>"; };
+		2588943D19116FC300558AD1 /* ABWebViewLoadUrlIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABWebViewLoadUrlIntention.h; path = ../../ABWebViewLoadUrlIntention.h; sourceTree = "<group>"; };
+		2588943E19116FC300558AD1 /* ABWebViewLoadUrlIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABWebViewLoadUrlIntention.m; path = ../../ABWebViewLoadUrlIntention.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,18 +185,64 @@
 		253F9192190D7CF700F7FC93 /* Intentions */ = {
 			isa = PBXGroup;
 			children = (
+				253F919F190D809000F7FC93 /* ABDelegateArrayIntention.h */,
+				253F91A0190D809000F7FC93 /* ABDelegateArrayIntention.m */,
+				25889426190E1AF000558AD1 /* View */,
+				25889427190E1AF900558AD1 /* Text Field */,
+				25889425190E1AE300558AD1 /* Table View */,
+				2588944219116FDB00558AD1 /* Web View */,
+				2588944119116FC800558AD1 /* Map View */,
+			);
+			name = Intentions;
+			sourceTree = "<group>";
+		};
+		25889425190E1AE300558AD1 /* Table View */ = {
+			isa = PBXGroup;
+			children = (
 				253F9193190D7D0500F7FC93 /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.h */,
 				253F9194190D7D0500F7FC93 /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m */,
 				253F9195190D7D0500F7FC93 /* ABTableViewDelegateRadioSelectableCellsIntention.h */,
 				253F9196190D7D0500F7FC93 /* ABTableViewDelegateRadioSelectableCellsIntention.m */,
-				253F9197190D7D0500F7FC93 /* ABTextFieldResignOnShouldReturnIntention.h */,
-				253F9198190D7D0500F7FC93 /* ABTextFieldResignOnShouldReturnIntention.m */,
+				25889422190E1ADB00558AD1 /* ABTableViewDelegateHideRowsOnActionIntention.h */,
+				25889423190E1ADB00558AD1 /* ABTableViewDelegateHideRowsOnActionIntention.m */,
+			);
+			name = "Table View";
+			sourceTree = "<group>";
+		};
+		25889426190E1AF000558AD1 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				253F9199190D7D0500F7FC93 /* ABViewsSinglePixelThicknessIntention.h */,
 				253F919A190D7D0500F7FC93 /* ABViewsSinglePixelThicknessIntention.m */,
-				253F919F190D809000F7FC93 /* ABDelegateArrayIntention.h */,
-				253F91A0190D809000F7FC93 /* ABDelegateArrayIntention.m */,
 			);
-			name = Intentions;
+			name = View;
+			sourceTree = "<group>";
+		};
+		25889427190E1AF900558AD1 /* Text Field */ = {
+			isa = PBXGroup;
+			children = (
+				253F9197190D7D0500F7FC93 /* ABTextFieldResignOnShouldReturnIntention.h */,
+				253F9198190D7D0500F7FC93 /* ABTextFieldResignOnShouldReturnIntention.m */,
+			);
+			name = "Text Field";
+			sourceTree = "<group>";
+		};
+		2588944119116FC800558AD1 /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+				2588943B19116FC300558AD1 /* ABMapViewZoomInOnSearchBarEnteredIntention.h */,
+				2588943C19116FC300558AD1 /* ABMapViewZoomInOnSearchBarEnteredIntention.m */,
+			);
+			name = "Map View";
+			sourceTree = "<group>";
+		};
+		2588944219116FDB00558AD1 /* Web View */ = {
+			isa = PBXGroup;
+			children = (
+				2588943D19116FC300558AD1 /* ABWebViewLoadUrlIntention.h */,
+				2588943E19116FC300558AD1 /* ABWebViewLoadUrlIntention.m */,
+			);
+			name = "Web View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,11 +344,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				253F916A190D7CE100F7FC93 /* main.m in Sources */,
+				2588944019116FC300558AD1 /* ABWebViewLoadUrlIntention.m in Sources */,
 				253F919D190D7D0500F7FC93 /* ABTextFieldResignOnShouldReturnIntention.m in Sources */,
 				253F91A1190D809000F7FC93 /* ABDelegateArrayIntention.m in Sources */,
+				2588943F19116FC300558AD1 /* ABMapViewZoomInOnSearchBarEnteredIntention.m in Sources */,
 				253F91A7190D89D600F7FC93 /* ABTypeViewController.m in Sources */,
 				253F919E190D7D0500F7FC93 /* ABViewsSinglePixelThicknessIntention.m in Sources */,
 				253F91A4190D899800F7FC93 /* ABFirstViewController.m in Sources */,
+				25889424190E1ADB00558AD1 /* ABTableViewDelegateHideRowsOnActionIntention.m in Sources */,
 				253F919B190D7D0500F7FC93 /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m in Sources */,
 				253F919C190D7D0500F7FC93 /* ABTableViewDelegateRadioSelectableCellsIntention.m in Sources */,
 				253F916E190D7CE100F7FC93 /* ABAppDelegate.m in Sources */,
@@ -378,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -410,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -424,6 +482,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ABIntentionsDemo/ABIntentionsDemo-Prefix.pch";
 				INFOPLIST_FILE = "ABIntentionsDemo/ABIntentionsDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +496,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ABIntentionsDemo/ABIntentionsDemo-Prefix.pch";
 				INFOPLIST_FILE = "ABIntentionsDemo/ABIntentionsDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
