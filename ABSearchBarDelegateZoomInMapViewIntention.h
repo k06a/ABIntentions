@@ -1,5 +1,5 @@
 //
-//  ABWebViewLoadUrlIntention.h
+//  ABSearchBarMapViewIntention.h
 //  Parking
 //
 //  Created by Антон Буков on 30.04.14.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ABWebViewLoadUrlIntention : NSObject
+@interface ABSearchBarDelegateZoomInMapViewIntention : NSObject
 
 @end

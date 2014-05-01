@@ -6,20 +6,19 @@
 //  Copyright (c) 2014 Codeless Solutions. All rights reserved.
 //
 
-#import "ABTableViewDelegateHideRowsOnActionIntention.h"
+#import "ABTableViewDelegateHideRowsIntention.h"
 
-@interface ABTableViewDelegateHideRowsOnActionIntention () <UITableViewDelegate>
+@interface ABTableViewDelegateHideRowsIntention () <UITableViewDelegate>
 
-@property (strong, nonatomic) IBOutletCollection(UITableViewCell) NSArray *cells;
 @property (weak, nonatomic) IBOutlet id<UITableViewDelegate> nextDelegate;
+@property (strong, nonatomic) IBOutletCollection(UITableViewCell) NSArray *cells;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
-@property (strong, nonatomic) NSArray *indexPaths;
 @property (assign, nonatomic) BOOL isCellsHidden;
 
 @end
 
-@implementation ABTableViewDelegateHideRowsOnActionIntention
+@implementation ABTableViewDelegateHideRowsIntention
 
 - (NSArray *)indexPaths
 {
@@ -65,7 +64,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (self.isCellsHidden && [self.indexPaths containsObject:indexPath])
+    if (self.isCellsHidden && [[self indexPaths] containsObject:indexPath])
         return 0;
     if ([self.nextDelegate respondsToSelector:@selector(tableView:heightForRowAtIndexPath:)])
         return [self.nextDelegate tableView:tableView heightForRowAtIndexPath:indexPath];
@@ -74,12 +73,14 @@
 
 - (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (self.isCellsHidden && [self.indexPaths containsObject:indexPath])
+    if (self.isCellsHidden && [[self indexPaths] containsObject:indexPath])
         return 0;
     if ([self.nextDelegate respondsToSelector:@selector(tableView:estimatedHeightForRowAtIndexPath:)])
         return [self.nextDelegate tableView:tableView estimatedHeightForRowAtIndexPath:indexPath];
     return UITableViewAutomaticDimension;
 }
+
+#pragma mark - Message Forwarding
 
 - (BOOL)respondsToSelector:(SEL)aSelector
 {

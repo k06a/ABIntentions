@@ -6,19 +6,17 @@
 //  Copyright (c) 2014 Codeless Solutions. All rights reserved.
 //
 
-
-
 #import <MapKit/MapKit.h>
-#import "ABMapViewZoomInOnSearchBarEnteredIntention.h"
+#import "ABSearchBarDelegateZoomInMapViewIntention.h"
 
-@interface ABMapViewZoomInOnSearchBarEnteredIntention () <UISearchBarDelegate>
+@interface ABSearchBarDelegateZoomInMapViewIntention () <UISearchBarDelegate>
 
 @property (weak, nonatomic) IBOutlet id<UISearchBarDelegate> nextDelegate;
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end
 
-@implementation ABMapViewZoomInOnSearchBarEnteredIntention
+@implementation ABSearchBarDelegateZoomInMapViewIntention
 
 #pragma mark - Search Bar
 

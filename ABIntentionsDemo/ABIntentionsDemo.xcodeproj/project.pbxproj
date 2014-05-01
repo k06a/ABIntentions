@@ -27,9 +27,12 @@
 		253F91A1190D809000F7FC93 /* ABDelegateArrayIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F91A0190D809000F7FC93 /* ABDelegateArrayIntention.m */; };
 		253F91A4190D899800F7FC93 /* ABFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F91A3190D899800F7FC93 /* ABFirstViewController.m */; };
 		253F91A7190D89D600F7FC93 /* ABTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F91A6190D89D600F7FC93 /* ABTypeViewController.m */; };
-		25889424190E1ADB00558AD1 /* ABTableViewDelegateHideRowsOnActionIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25889423190E1ADB00558AD1 /* ABTableViewDelegateHideRowsOnActionIntention.m */; };
-		2588943F19116FC300558AD1 /* ABMapViewZoomInOnSearchBarEnteredIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2588943C19116FC300558AD1 /* ABMapViewZoomInOnSearchBarEnteredIntention.m */; };
-		2588944019116FC300558AD1 /* ABWebViewLoadUrlIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2588943E19116FC300558AD1 /* ABWebViewLoadUrlIntention.m */; };
+		25889424190E1ADB00558AD1 /* ABTableViewDelegateHideRowsIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25889423190E1ADB00558AD1 /* ABTableViewDelegateHideRowsIntention.m */; };
+		2588943F19116FC300558AD1 /* ABSearchBarDelegateZoomInMapViewIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2588943C19116FC300558AD1 /* ABSearchBarDelegateZoomInMapViewIntention.m */; };
+		2588944019116FC300558AD1 /* ABWebViewDelegateLoadUrlIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2588943E19116FC300558AD1 /* ABWebViewDelegateLoadUrlIntention.m */; };
+		2588944E1912E60D00558AD1 /* ABMapViewActionsIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2588944D1912E60D00558AD1 /* ABMapViewActionsIntention.m */; };
+		258894521912E72400558AD1 /* ABBarButtonItemRadioSelectableIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 258894511912E72400558AD1 /* ABBarButtonItemRadioSelectableIntention.m */; };
+		258894551912EB2B00558AD1 /* ABBarButtonItemObserversChainIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 258894541912EB2B00558AD1 /* ABBarButtonItemObserversChainIntention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,12 +77,18 @@
 		253F91A3190D899800F7FC93 /* ABFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFirstViewController.m; sourceTree = "<group>"; };
 		253F91A5190D89D600F7FC93 /* ABTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTypeViewController.h; sourceTree = "<group>"; };
 		253F91A6190D89D600F7FC93 /* ABTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTypeViewController.m; sourceTree = "<group>"; };
-		25889422190E1ADB00558AD1 /* ABTableViewDelegateHideRowsOnActionIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABTableViewDelegateHideRowsOnActionIntention.h; path = ../../ABTableViewDelegateHideRowsOnActionIntention.h; sourceTree = "<group>"; };
-		25889423190E1ADB00558AD1 /* ABTableViewDelegateHideRowsOnActionIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABTableViewDelegateHideRowsOnActionIntention.m; path = ../../ABTableViewDelegateHideRowsOnActionIntention.m; sourceTree = "<group>"; };
-		2588943B19116FC300558AD1 /* ABMapViewZoomInOnSearchBarEnteredIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABMapViewZoomInOnSearchBarEnteredIntention.h; path = ../../ABMapViewZoomInOnSearchBarEnteredIntention.h; sourceTree = "<group>"; };
-		2588943C19116FC300558AD1 /* ABMapViewZoomInOnSearchBarEnteredIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABMapViewZoomInOnSearchBarEnteredIntention.m; path = ../../ABMapViewZoomInOnSearchBarEnteredIntention.m; sourceTree = "<group>"; };
-		2588943D19116FC300558AD1 /* ABWebViewLoadUrlIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABWebViewLoadUrlIntention.h; path = ../../ABWebViewLoadUrlIntention.h; sourceTree = "<group>"; };
-		2588943E19116FC300558AD1 /* ABWebViewLoadUrlIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABWebViewLoadUrlIntention.m; path = ../../ABWebViewLoadUrlIntention.m; sourceTree = "<group>"; };
+		25889422190E1ADB00558AD1 /* ABTableViewDelegateHideRowsIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABTableViewDelegateHideRowsIntention.h; path = ../../ABTableViewDelegateHideRowsIntention.h; sourceTree = "<group>"; };
+		25889423190E1ADB00558AD1 /* ABTableViewDelegateHideRowsIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABTableViewDelegateHideRowsIntention.m; path = ../../ABTableViewDelegateHideRowsIntention.m; sourceTree = "<group>"; };
+		2588943B19116FC300558AD1 /* ABSearchBarDelegateZoomInMapViewIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABSearchBarDelegateZoomInMapViewIntention.h; path = ../../ABSearchBarDelegateZoomInMapViewIntention.h; sourceTree = "<group>"; };
+		2588943C19116FC300558AD1 /* ABSearchBarDelegateZoomInMapViewIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABSearchBarDelegateZoomInMapViewIntention.m; path = ../../ABSearchBarDelegateZoomInMapViewIntention.m; sourceTree = "<group>"; };
+		2588943D19116FC300558AD1 /* ABWebViewDelegateLoadUrlIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABWebViewDelegateLoadUrlIntention.h; path = ../../ABWebViewDelegateLoadUrlIntention.h; sourceTree = "<group>"; };
+		2588943E19116FC300558AD1 /* ABWebViewDelegateLoadUrlIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABWebViewDelegateLoadUrlIntention.m; path = ../../ABWebViewDelegateLoadUrlIntention.m; sourceTree = "<group>"; };
+		2588944C1912E60D00558AD1 /* ABMapViewActionsIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABMapViewActionsIntention.h; path = ../../ABMapViewActionsIntention.h; sourceTree = "<group>"; };
+		2588944D1912E60D00558AD1 /* ABMapViewActionsIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABMapViewActionsIntention.m; path = ../../ABMapViewActionsIntention.m; sourceTree = "<group>"; };
+		258894501912E72400558AD1 /* ABBarButtonItemRadioSelectableIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABBarButtonItemRadioSelectableIntention.h; path = ../../ABBarButtonItemRadioSelectableIntention.h; sourceTree = "<group>"; };
+		258894511912E72400558AD1 /* ABBarButtonItemRadioSelectableIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABBarButtonItemRadioSelectableIntention.m; path = ../../ABBarButtonItemRadioSelectableIntention.m; sourceTree = "<group>"; };
+		258894531912EB2B00558AD1 /* ABBarButtonItemObserversChainIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABBarButtonItemObserversChainIntention.h; path = ../../ABBarButtonItemObserversChainIntention.h; sourceTree = "<group>"; };
+		258894541912EB2B00558AD1 /* ABBarButtonItemObserversChainIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABBarButtonItemObserversChainIntention.m; path = ../../ABBarButtonItemObserversChainIntention.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +197,7 @@
 				253F919F190D809000F7FC93 /* ABDelegateArrayIntention.h */,
 				253F91A0190D809000F7FC93 /* ABDelegateArrayIntention.m */,
 				25889426190E1AF000558AD1 /* View */,
+				2588944F1912E6F200558AD1 /* Buttons */,
 				25889427190E1AF900558AD1 /* Text Field */,
 				25889425190E1AE300558AD1 /* Table View */,
 				2588944219116FDB00558AD1 /* Web View */,
@@ -203,8 +213,8 @@
 				253F9194190D7D0500F7FC93 /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m */,
 				253F9195190D7D0500F7FC93 /* ABTableViewDelegateRadioSelectableCellsIntention.h */,
 				253F9196190D7D0500F7FC93 /* ABTableViewDelegateRadioSelectableCellsIntention.m */,
-				25889422190E1ADB00558AD1 /* ABTableViewDelegateHideRowsOnActionIntention.h */,
-				25889423190E1ADB00558AD1 /* ABTableViewDelegateHideRowsOnActionIntention.m */,
+				25889422190E1ADB00558AD1 /* ABTableViewDelegateHideRowsIntention.h */,
+				25889423190E1ADB00558AD1 /* ABTableViewDelegateHideRowsIntention.m */,
 			);
 			name = "Table View";
 			sourceTree = "<group>";
@@ -230,8 +240,10 @@
 		2588944119116FC800558AD1 /* Map View */ = {
 			isa = PBXGroup;
 			children = (
-				2588943B19116FC300558AD1 /* ABMapViewZoomInOnSearchBarEnteredIntention.h */,
-				2588943C19116FC300558AD1 /* ABMapViewZoomInOnSearchBarEnteredIntention.m */,
+				2588944C1912E60D00558AD1 /* ABMapViewActionsIntention.h */,
+				2588944D1912E60D00558AD1 /* ABMapViewActionsIntention.m */,
+				2588943B19116FC300558AD1 /* ABSearchBarDelegateZoomInMapViewIntention.h */,
+				2588943C19116FC300558AD1 /* ABSearchBarDelegateZoomInMapViewIntention.m */,
 			);
 			name = "Map View";
 			sourceTree = "<group>";
@@ -239,10 +251,21 @@
 		2588944219116FDB00558AD1 /* Web View */ = {
 			isa = PBXGroup;
 			children = (
-				2588943D19116FC300558AD1 /* ABWebViewLoadUrlIntention.h */,
-				2588943E19116FC300558AD1 /* ABWebViewLoadUrlIntention.m */,
+				2588943D19116FC300558AD1 /* ABWebViewDelegateLoadUrlIntention.h */,
+				2588943E19116FC300558AD1 /* ABWebViewDelegateLoadUrlIntention.m */,
 			);
 			name = "Web View";
+			sourceTree = "<group>";
+		};
+		2588944F1912E6F200558AD1 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				258894501912E72400558AD1 /* ABBarButtonItemRadioSelectableIntention.h */,
+				258894511912E72400558AD1 /* ABBarButtonItemRadioSelectableIntention.m */,
+				258894531912EB2B00558AD1 /* ABBarButtonItemObserversChainIntention.h */,
+				258894541912EB2B00558AD1 /* ABBarButtonItemObserversChainIntention.m */,
+			);
+			name = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,14 +367,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				253F916A190D7CE100F7FC93 /* main.m in Sources */,
-				2588944019116FC300558AD1 /* ABWebViewLoadUrlIntention.m in Sources */,
+				2588944019116FC300558AD1 /* ABWebViewDelegateLoadUrlIntention.m in Sources */,
+				258894551912EB2B00558AD1 /* ABBarButtonItemObserversChainIntention.m in Sources */,
+				2588944E1912E60D00558AD1 /* ABMapViewActionsIntention.m in Sources */,
 				253F919D190D7D0500F7FC93 /* ABTextFieldResignOnShouldReturnIntention.m in Sources */,
 				253F91A1190D809000F7FC93 /* ABDelegateArrayIntention.m in Sources */,
-				2588943F19116FC300558AD1 /* ABMapViewZoomInOnSearchBarEnteredIntention.m in Sources */,
+				2588943F19116FC300558AD1 /* ABSearchBarDelegateZoomInMapViewIntention.m in Sources */,
 				253F91A7190D89D600F7FC93 /* ABTypeViewController.m in Sources */,
 				253F919E190D7D0500F7FC93 /* ABViewsSinglePixelThicknessIntention.m in Sources */,
+				258894521912E72400558AD1 /* ABBarButtonItemRadioSelectableIntention.m in Sources */,
 				253F91A4190D899800F7FC93 /* ABFirstViewController.m in Sources */,
-				25889424190E1ADB00558AD1 /* ABTableViewDelegateHideRowsOnActionIntention.m in Sources */,
+				25889424190E1ADB00558AD1 /* ABTableViewDelegateHideRowsIntention.m in Sources */,
 				253F919B190D7D0500F7FC93 /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m in Sources */,
 				253F919C190D7D0500F7FC93 /* ABTableViewDelegateRadioSelectableCellsIntention.m in Sources */,
 				253F916E190D7CE100F7FC93 /* ABAppDelegate.m in Sources */,

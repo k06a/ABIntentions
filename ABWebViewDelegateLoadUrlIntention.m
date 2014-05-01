@@ -6,18 +6,18 @@
 //  Copyright (c) 2014 Codeless Solutions. All rights reserved.
 //
 
-#import "ABWebViewLoadUrlIntention.h"
+#import "ABWebViewDelegateLoadUrlIntention.h"
 
-@interface ABWebViewLoadUrlIntention () <UIWebViewDelegate>
+@interface ABWebViewDelegateLoadUrlIntention () <UIWebViewDelegate>
 
 @property (weak, nonatomic) IBOutlet id<UIWebViewDelegate> nextDelegate;
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
-@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityView;
+@property (weak, nonatomic) IBOutlet UIView *activityView;
 @property (strong, nonatomic) NSString *url;
 
 @end
 
-@implementation ABWebViewLoadUrlIntention
+@implementation ABWebViewDelegateLoadUrlIntention
 
 - (void)setWebView:(UIWebView *)webView
 {

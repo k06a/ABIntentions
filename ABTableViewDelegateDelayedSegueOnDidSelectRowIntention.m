@@ -27,8 +27,8 @@
 
 @interface ABTableViewDelegateDelayedSegueOnDidSelectRowIntention () <UITableViewDelegate>
 
-@property (weak, nonatomic) IBOutlet UIViewController *viewController;
 @property (weak, nonatomic) IBOutlet id<UITableViewDelegate> nextDelegate;
+@property (weak, nonatomic) IBOutlet UIViewController *viewController;
 
 @end
 
@@ -44,6 +44,8 @@
     if ([self.nextDelegate respondsToSelector:@selector(tableView:didSelectRowAtIndexPath:)])
         [self.nextDelegate tableView:tableView didSelectRowAtIndexPath:indexPath];
 }
+
+#pragma mark - Message Forwarding
 
 - (BOOL)respondsToSelector:(SEL)aSelector
 {

@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ABTableViewDelegateHideRowsOnActionIntention : NSObject
+@interface ABTableViewDelegateHideRowsIntention : NSObject
 
 @end
