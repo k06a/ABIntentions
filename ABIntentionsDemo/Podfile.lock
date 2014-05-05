@@ -1,0 +1,14 @@
+PODS:
+  - ABIntentions (1.0.0)
+
+DEPENDENCIES:
+  - ABIntentions (from `https://github.com/k06a/ABIntentions`)
+
+EXTERNAL SOURCES:
+  ABIntentions:
+    :git: https://github.com/k06a/ABIntentions
+
+SPEC CHECKSUMS:
+  ABIntentions: 5e59e3358746cc5d11ffd55081e454bf8add3aa4
+
+COCOAPODS: 0.32.1

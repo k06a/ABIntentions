@@ -1,0 +1,3 @@
+platform :ios, '7.0'
+
+pod 'ABIntentions', :git => 'https://github.com/k06a/ABIntentions'
