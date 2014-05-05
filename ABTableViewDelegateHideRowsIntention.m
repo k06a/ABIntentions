@@ -53,12 +53,12 @@
     self.isCellsHidden = !self.isCellsHidden;
     [UIView animateWithDuration:0.25 animations:^{
         for (UITableViewCell *cell in self.cells)
-            cell.alpha = (self.isCellsHidden ? 0.0 : 1.0);
+            cell.contentView.alpha = (self.isCellsHidden ? 0.0 : 1.0);
     }];
     [self.tableView endUpdates];
     
     self.tableView.contentOffset = point;
-    CGFloat y = MIN(point.y,[self tableHeight] - self.tableView.bounds.size.height);
+    CGFloat y = MAX(-self.tableView.contentInset.top,MIN(point.y,[self tableHeight] - self.tableView.bounds.size.height));
     [self.tableView setContentOffset:CGPointMake(point.x,y) animated:YES];
 }
 
