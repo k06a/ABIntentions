@@ -35,7 +35,9 @@
 		25C17FFD19181619002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FEB19181619002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.m */; };
 		25C17FFE19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FEE19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.m */; };
 		25C17FFF19181619002C49AA /* ABViewsSinglePixelThicknessIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FF119181619002C49AA /* ABViewsSinglePixelThicknessIntention.m */; };
-		25C1800019181619002C49AA /* ABWebViewDelegateLoadUrlIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FF419181619002C49AA /* ABWebViewDelegateLoadUrlIntention.m */; };
+		25C1800019181619002C49AA /* ABWebViewActionsIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FF419181619002C49AA /* ABWebViewActionsIntention.m */; };
+		25C1800419181AD1002C49AA /* ABWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C1800319181AD1002C49AA /* ABWebViewController.m */; };
+		25C1800719181AFA002C49AA /* ABMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C1800619181AFA002C49AA /* ABMapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,8 +95,12 @@
 		25C17FEE19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTextFieldResignOnShouldReturnIntention.m; sourceTree = "<group>"; };
 		25C17FF019181619002C49AA /* ABViewsSinglePixelThicknessIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABViewsSinglePixelThicknessIntention.h; sourceTree = "<group>"; };
 		25C17FF119181619002C49AA /* ABViewsSinglePixelThicknessIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABViewsSinglePixelThicknessIntention.m; sourceTree = "<group>"; };
-		25C17FF319181619002C49AA /* ABWebViewDelegateLoadUrlIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABWebViewDelegateLoadUrlIntention.h; sourceTree = "<group>"; };
-		25C17FF419181619002C49AA /* ABWebViewDelegateLoadUrlIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABWebViewDelegateLoadUrlIntention.m; sourceTree = "<group>"; };
+		25C17FF319181619002C49AA /* ABWebViewActionsIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABWebViewActionsIntention.h; sourceTree = "<group>"; };
+		25C17FF419181619002C49AA /* ABWebViewActionsIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABWebViewActionsIntention.m; sourceTree = "<group>"; };
+		25C1800219181AD1002C49AA /* ABWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABWebViewController.h; sourceTree = "<group>"; };
+		25C1800319181AD1002C49AA /* ABWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABWebViewController.m; sourceTree = "<group>"; };
+		25C1800519181AFA002C49AA /* ABMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABMapViewController.h; sourceTree = "<group>"; };
+		25C1800619181AFA002C49AA /* ABMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABMapViewController.m; sourceTree = "<group>"; };
 		98FBC4D0E8A04DA6BEA73EF6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7314365730A40FFB3197E73 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +170,10 @@
 				25C17FA61913E98E002C49AA /* ABTableViewController.h */,
 				25C17FA71913E98E002C49AA /* ABTableViewController.m */,
 				253F916F190D7CE100F7FC93 /* Main.storyboard */,
+				25C1800219181AD1002C49AA /* ABWebViewController.h */,
+				25C1800319181AD1002C49AA /* ABWebViewController.m */,
+				25C1800519181AFA002C49AA /* ABMapViewController.h */,
+				25C1800619181AFA002C49AA /* ABMapViewController.m */,
 				253F9175190D7CE100F7FC93 /* Images.xcassets */,
 				258894561912F2EA00558AD1 /* Images */,
 				253F9164190D7CE100F7FC93 /* Supporting Files */,
@@ -284,8 +294,8 @@
 		25C17FF219181619002C49AA /* WebView */ = {
 			isa = PBXGroup;
 			children = (
-				25C17FF319181619002C49AA /* ABWebViewDelegateLoadUrlIntention.h */,
-				25C17FF419181619002C49AA /* ABWebViewDelegateLoadUrlIntention.m */,
+				25C17FF319181619002C49AA /* ABWebViewActionsIntention.h */,
+				25C17FF419181619002C49AA /* ABWebViewActionsIntention.m */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -391,7 +401,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25C1800019181619002C49AA /* ABWebViewDelegateLoadUrlIntention.m in Sources */,
+				25C1800419181AD1002C49AA /* ABWebViewController.m in Sources */,
+				25C1800019181619002C49AA /* ABWebViewActionsIntention.m in Sources */,
 				253F916A190D7CE100F7FC93 /* main.m in Sources */,
 				25C17FA81913E98E002C49AA /* ABTableViewController.m in Sources */,
 				25C17FF719181619002C49AA /* ABBarButtonItemRadioSelectableIntention.m in Sources */,
@@ -402,6 +413,7 @@
 				25C17FF519181619002C49AA /* ABDelegateArrayIntention.m in Sources */,
 				25C17FF619181619002C49AA /* ABBarButtonItemObserversChainIntention.m in Sources */,
 				253F916E190D7CE100F7FC93 /* ABAppDelegate.m in Sources */,
+				25C1800719181AFA002C49AA /* ABMapViewController.m in Sources */,
 				25C17FFB19181619002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m in Sources */,
 				25C17FFA19181619002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.m in Sources */,
 				25C17FF819181619002C49AA /* ABButtonCycledChangeImagesIntention.m in Sources */,

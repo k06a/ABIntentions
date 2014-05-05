@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ABWebViewDelegateLoadUrlIntention : NSObject
+@interface ABWebViewActionsIntention : NSObject
 
 @end
