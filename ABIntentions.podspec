@@ -10,22 +10,22 @@ Pod::Spec.new do |s|
   s.source_files = 'ABIntentions/*.{h,m}'
   s.requires_arc = true
   
-  s.subspec 'View' do |core|
-    core.source_files = 'ABIntentions/View/*.{m,h}'
+  s.subspec 'View' do |sub|
+    sub.source_files = 'ABIntentions/View/*.{m,h}'
   end
-  s.subspec 'Button' do |core|
-    core.source_files = 'ABIntentions/Button/*.{m,h}'
+  s.subspec 'Button' do |sub|
+    sub.source_files = 'ABIntentions/Button/*.{m,h}'
   end
-  s.subspec 'TextField' do |core|
-    core.source_files = 'ABIntentions/TextField/*.{m,h}'
+  s.subspec 'TextField' do |sub|
+    sub.source_files = 'ABIntentions/TextField/*.{m,h}'
   end
-  s.subspec 'TableView' do |cells|
-      cells.source_files = 'ABIntentions/TableView/*.{m,h}'
+  s.subspec 'TableView' do |sub|
+    sub.source_files = 'ABIntentions/TableView/*.{m,h}'
   end
-  s.subspec 'WebView' do |cells|
-      cells.source_files = 'ABIntentions/WebView/*.{m,h}'
+  s.subspec 'WebView' do |sub|
+    sub.source_files = 'ABIntentions/WebView/*.{m,h}'
   end
-  s.subspec 'MapView' do |cells|
-      cells.source_files = 'ABIntentions/MapView/*.{m,h}'
+  s.subspec 'MapView' do |sub|
+    sub.source_files = 'ABIntentions/MapView/*.{m,h}'
   end
 end

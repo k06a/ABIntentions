@@ -1,5 +1,17 @@
 PODS:
-  - ABIntentions (1.0.0)
+  - ABIntentions (1.0.0):
+    - ABIntentions/Button
+    - ABIntentions/MapView
+    - ABIntentions/TableView
+    - ABIntentions/TextField
+    - ABIntentions/View
+    - ABIntentions/WebView
+  - ABIntentions/Button (1.0.0)
+  - ABIntentions/MapView (1.0.0)
+  - ABIntentions/TableView (1.0.0)
+  - ABIntentions/TextField (1.0.0)
+  - ABIntentions/View (1.0.0)
+  - ABIntentions/WebView (1.0.0)
 
 DEPENDENCIES:
   - ABIntentions (from `https://github.com/k06a/ABIntentions`)
@@ -9,6 +21,6 @@ EXTERNAL SOURCES:
     :git: https://github.com/k06a/ABIntentions
 
 SPEC CHECKSUMS:
-  ABIntentions: 5e59e3358746cc5d11ffd55081e454bf8add3aa4
+  ABIntentions: 6166de48f6ba1fd5acf72782a692fb63ecbd02ab
 
 COCOAPODS: 0.32.1
