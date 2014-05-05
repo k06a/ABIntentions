@@ -24,19 +24,18 @@
 		2588945B1912F32300558AD1 /* geo_follow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258894581912F32300558AD1 /* geo_follow@2x.png */; };
 		2588945C1912F32300558AD1 /* geo_heading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258894591912F32300558AD1 /* geo_heading@2x.png */; };
 		25C17FA81913E98E002C49AA /* ABTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FA71913E98E002C49AA /* ABTableViewController.m */; };
-		25C17FC819179258002C49AA /* ABDelegateArrayIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FAB19179258002C49AA /* ABDelegateArrayIntention.m */; };
-		25C17FC919179258002C49AA /* ABBarButtonItemObserversChainIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FAE19179258002C49AA /* ABBarButtonItemObserversChainIntention.m */; };
-		25C17FCA19179258002C49AA /* ABBarButtonItemRadioSelectableIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FB019179258002C49AA /* ABBarButtonItemRadioSelectableIntention.m */; };
-		25C17FCB19179258002C49AA /* ABButtonCycledChangeImagesIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FB219179258002C49AA /* ABButtonCycledChangeImagesIntention.m */; };
-		25C17FCC19179258002C49AA /* ABMapViewActionsIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FB519179258002C49AA /* ABMapViewActionsIntention.m */; };
-		25C17FCD19179258002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FB719179258002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.m */; };
-		25C17FCE19179258002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FBA19179258002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m */; };
-		25C17FCF19179258002C49AA /* ABTableViewDelegateHideRowsIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FBC19179258002C49AA /* ABTableViewDelegateHideRowsIntention.m */; };
-		25C17FD019179258002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FBE19179258002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.m */; };
-		25C17FD119179258002C49AA /* ABTextFieldResignOnShouldReturnIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FC119179258002C49AA /* ABTextFieldResignOnShouldReturnIntention.m */; };
-		25C17FD219179258002C49AA /* ABViewsSinglePixelThicknessIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FC419179258002C49AA /* ABViewsSinglePixelThicknessIntention.m */; };
-		25C17FD319179258002C49AA /* ABWebViewDelegateLoadUrlIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FC719179258002C49AA /* ABWebViewDelegateLoadUrlIntention.m */; };
-		EB628D5A4B8F42938E198058 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98FBC4D0E8A04DA6BEA73EF6 /* libPods.a */; };
+		25C17FF519181619002C49AA /* ABDelegateArrayIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FD819181619002C49AA /* ABDelegateArrayIntention.m */; };
+		25C17FF619181619002C49AA /* ABBarButtonItemObserversChainIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FDB19181619002C49AA /* ABBarButtonItemObserversChainIntention.m */; };
+		25C17FF719181619002C49AA /* ABBarButtonItemRadioSelectableIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FDD19181619002C49AA /* ABBarButtonItemRadioSelectableIntention.m */; };
+		25C17FF819181619002C49AA /* ABButtonCycledChangeImagesIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FDF19181619002C49AA /* ABButtonCycledChangeImagesIntention.m */; };
+		25C17FF919181619002C49AA /* ABMapViewActionsIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FE219181619002C49AA /* ABMapViewActionsIntention.m */; };
+		25C17FFA19181619002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FE419181619002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.m */; };
+		25C17FFB19181619002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FE719181619002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m */; };
+		25C17FFC19181619002C49AA /* ABTableViewDelegateHideRowsIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FE919181619002C49AA /* ABTableViewDelegateHideRowsIntention.m */; };
+		25C17FFD19181619002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FEB19181619002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.m */; };
+		25C17FFE19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FEE19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.m */; };
+		25C17FFF19181619002C49AA /* ABViewsSinglePixelThicknessIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FF119181619002C49AA /* ABViewsSinglePixelThicknessIntention.m */; };
+		25C1800019181619002C49AA /* ABWebViewDelegateLoadUrlIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FF419181619002C49AA /* ABWebViewDelegateLoadUrlIntention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,30 +71,30 @@
 		258894591912F32300558AD1 /* geo_heading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "geo_heading@2x.png"; path = "Images/geo_heading@2x.png"; sourceTree = SOURCE_ROOT; };
 		25C17FA61913E98E002C49AA /* ABTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewController.h; sourceTree = "<group>"; };
 		25C17FA71913E98E002C49AA /* ABTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewController.m; sourceTree = "<group>"; };
-		25C17FAA19179258002C49AA /* ABDelegateArrayIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABDelegateArrayIntention.h; sourceTree = "<group>"; };
-		25C17FAB19179258002C49AA /* ABDelegateArrayIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABDelegateArrayIntention.m; sourceTree = "<group>"; };
-		25C17FAD19179258002C49AA /* ABBarButtonItemObserversChainIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABBarButtonItemObserversChainIntention.h; sourceTree = "<group>"; };
-		25C17FAE19179258002C49AA /* ABBarButtonItemObserversChainIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABBarButtonItemObserversChainIntention.m; sourceTree = "<group>"; };
-		25C17FAF19179258002C49AA /* ABBarButtonItemRadioSelectableIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABBarButtonItemRadioSelectableIntention.h; sourceTree = "<group>"; };
-		25C17FB019179258002C49AA /* ABBarButtonItemRadioSelectableIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABBarButtonItemRadioSelectableIntention.m; sourceTree = "<group>"; };
-		25C17FB119179258002C49AA /* ABButtonCycledChangeImagesIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABButtonCycledChangeImagesIntention.h; sourceTree = "<group>"; };
-		25C17FB219179258002C49AA /* ABButtonCycledChangeImagesIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABButtonCycledChangeImagesIntention.m; sourceTree = "<group>"; };
-		25C17FB419179258002C49AA /* ABMapViewActionsIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABMapViewActionsIntention.h; sourceTree = "<group>"; };
-		25C17FB519179258002C49AA /* ABMapViewActionsIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABMapViewActionsIntention.m; sourceTree = "<group>"; };
-		25C17FB619179258002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSearchBarDelegateZoomInMapViewIntention.h; sourceTree = "<group>"; };
-		25C17FB719179258002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSearchBarDelegateZoomInMapViewIntention.m; sourceTree = "<group>"; };
-		25C17FB919179258002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.h; sourceTree = "<group>"; };
-		25C17FBA19179258002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m; sourceTree = "<group>"; };
-		25C17FBB19179258002C49AA /* ABTableViewDelegateHideRowsIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewDelegateHideRowsIntention.h; sourceTree = "<group>"; };
-		25C17FBC19179258002C49AA /* ABTableViewDelegateHideRowsIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewDelegateHideRowsIntention.m; sourceTree = "<group>"; };
-		25C17FBD19179258002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewDelegateRadioSelectableCellsIntention.h; sourceTree = "<group>"; };
-		25C17FBE19179258002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewDelegateRadioSelectableCellsIntention.m; sourceTree = "<group>"; };
-		25C17FC019179258002C49AA /* ABTextFieldResignOnShouldReturnIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTextFieldResignOnShouldReturnIntention.h; sourceTree = "<group>"; };
-		25C17FC119179258002C49AA /* ABTextFieldResignOnShouldReturnIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTextFieldResignOnShouldReturnIntention.m; sourceTree = "<group>"; };
-		25C17FC319179258002C49AA /* ABViewsSinglePixelThicknessIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABViewsSinglePixelThicknessIntention.h; sourceTree = "<group>"; };
-		25C17FC419179258002C49AA /* ABViewsSinglePixelThicknessIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABViewsSinglePixelThicknessIntention.m; sourceTree = "<group>"; };
-		25C17FC619179258002C49AA /* ABWebViewDelegateLoadUrlIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABWebViewDelegateLoadUrlIntention.h; sourceTree = "<group>"; };
-		25C17FC719179258002C49AA /* ABWebViewDelegateLoadUrlIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABWebViewDelegateLoadUrlIntention.m; sourceTree = "<group>"; };
+		25C17FD719181619002C49AA /* ABDelegateArrayIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABDelegateArrayIntention.h; sourceTree = "<group>"; };
+		25C17FD819181619002C49AA /* ABDelegateArrayIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABDelegateArrayIntention.m; sourceTree = "<group>"; };
+		25C17FDA19181619002C49AA /* ABBarButtonItemObserversChainIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABBarButtonItemObserversChainIntention.h; sourceTree = "<group>"; };
+		25C17FDB19181619002C49AA /* ABBarButtonItemObserversChainIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABBarButtonItemObserversChainIntention.m; sourceTree = "<group>"; };
+		25C17FDC19181619002C49AA /* ABBarButtonItemRadioSelectableIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABBarButtonItemRadioSelectableIntention.h; sourceTree = "<group>"; };
+		25C17FDD19181619002C49AA /* ABBarButtonItemRadioSelectableIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABBarButtonItemRadioSelectableIntention.m; sourceTree = "<group>"; };
+		25C17FDE19181619002C49AA /* ABButtonCycledChangeImagesIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABButtonCycledChangeImagesIntention.h; sourceTree = "<group>"; };
+		25C17FDF19181619002C49AA /* ABButtonCycledChangeImagesIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABButtonCycledChangeImagesIntention.m; sourceTree = "<group>"; };
+		25C17FE119181619002C49AA /* ABMapViewActionsIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABMapViewActionsIntention.h; sourceTree = "<group>"; };
+		25C17FE219181619002C49AA /* ABMapViewActionsIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABMapViewActionsIntention.m; sourceTree = "<group>"; };
+		25C17FE319181619002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSearchBarDelegateZoomInMapViewIntention.h; sourceTree = "<group>"; };
+		25C17FE419181619002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSearchBarDelegateZoomInMapViewIntention.m; sourceTree = "<group>"; };
+		25C17FE619181619002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.h; sourceTree = "<group>"; };
+		25C17FE719181619002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m; sourceTree = "<group>"; };
+		25C17FE819181619002C49AA /* ABTableViewDelegateHideRowsIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewDelegateHideRowsIntention.h; sourceTree = "<group>"; };
+		25C17FE919181619002C49AA /* ABTableViewDelegateHideRowsIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewDelegateHideRowsIntention.m; sourceTree = "<group>"; };
+		25C17FEA19181619002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewDelegateRadioSelectableCellsIntention.h; sourceTree = "<group>"; };
+		25C17FEB19181619002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewDelegateRadioSelectableCellsIntention.m; sourceTree = "<group>"; };
+		25C17FED19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTextFieldResignOnShouldReturnIntention.h; sourceTree = "<group>"; };
+		25C17FEE19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTextFieldResignOnShouldReturnIntention.m; sourceTree = "<group>"; };
+		25C17FF019181619002C49AA /* ABViewsSinglePixelThicknessIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABViewsSinglePixelThicknessIntention.h; sourceTree = "<group>"; };
+		25C17FF119181619002C49AA /* ABViewsSinglePixelThicknessIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABViewsSinglePixelThicknessIntention.m; sourceTree = "<group>"; };
+		25C17FF319181619002C49AA /* ABWebViewDelegateLoadUrlIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABWebViewDelegateLoadUrlIntention.h; sourceTree = "<group>"; };
+		25C17FF419181619002C49AA /* ABWebViewDelegateLoadUrlIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABWebViewDelegateLoadUrlIntention.m; sourceTree = "<group>"; };
 		98FBC4D0E8A04DA6BEA73EF6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7314365730A40FFB3197E73 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,7 +107,6 @@
 				253F9160190D7CE100F7FC93 /* CoreGraphics.framework in Frameworks */,
 				253F9162190D7CE100F7FC93 /* UIKit.framework in Frameworks */,
 				253F915E190D7CE100F7FC93 /* Foundation.framework in Frameworks */,
-				EB628D5A4B8F42938E198058 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +158,7 @@
 		253F9163190D7CE100F7FC93 /* ABIntentionsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				25C17FA919179258002C49AA /* ABIntentions */,
+				25C17FD619181619002C49AA /* ABIntentions */,
 				253F916C190D7CE100F7FC93 /* ABAppDelegate.h */,
 				253F916D190D7CE100F7FC93 /* ABAppDelegate.m */,
 				25C17FA61913E98E002C49AA /* ABTableViewController.h */,
@@ -212,82 +210,82 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
-		25C17FA919179258002C49AA /* ABIntentions */ = {
+		25C17FD619181619002C49AA /* ABIntentions */ = {
 			isa = PBXGroup;
 			children = (
-				25C17FAA19179258002C49AA /* ABDelegateArrayIntention.h */,
-				25C17FAB19179258002C49AA /* ABDelegateArrayIntention.m */,
-				25C17FAC19179258002C49AA /* Button */,
-				25C17FB319179258002C49AA /* MapView */,
-				25C17FB819179258002C49AA /* TableView */,
-				25C17FBF19179258002C49AA /* TextField */,
-				25C17FC219179258002C49AA /* View */,
-				25C17FC519179258002C49AA /* WebView */,
+				25C17FD719181619002C49AA /* ABDelegateArrayIntention.h */,
+				25C17FD819181619002C49AA /* ABDelegateArrayIntention.m */,
+				25C17FD919181619002C49AA /* Button */,
+				25C17FE019181619002C49AA /* MapView */,
+				25C17FE519181619002C49AA /* TableView */,
+				25C17FEC19181619002C49AA /* TextField */,
+				25C17FEF19181619002C49AA /* View */,
+				25C17FF219181619002C49AA /* WebView */,
 			);
 			name = ABIntentions;
 			path = ../../ABIntentions;
 			sourceTree = "<group>";
 		};
-		25C17FAC19179258002C49AA /* Button */ = {
+		25C17FD919181619002C49AA /* Button */ = {
 			isa = PBXGroup;
 			children = (
-				25C17FAD19179258002C49AA /* ABBarButtonItemObserversChainIntention.h */,
-				25C17FAE19179258002C49AA /* ABBarButtonItemObserversChainIntention.m */,
-				25C17FAF19179258002C49AA /* ABBarButtonItemRadioSelectableIntention.h */,
-				25C17FB019179258002C49AA /* ABBarButtonItemRadioSelectableIntention.m */,
-				25C17FB119179258002C49AA /* ABButtonCycledChangeImagesIntention.h */,
-				25C17FB219179258002C49AA /* ABButtonCycledChangeImagesIntention.m */,
+				25C17FDA19181619002C49AA /* ABBarButtonItemObserversChainIntention.h */,
+				25C17FDB19181619002C49AA /* ABBarButtonItemObserversChainIntention.m */,
+				25C17FDC19181619002C49AA /* ABBarButtonItemRadioSelectableIntention.h */,
+				25C17FDD19181619002C49AA /* ABBarButtonItemRadioSelectableIntention.m */,
+				25C17FDE19181619002C49AA /* ABButtonCycledChangeImagesIntention.h */,
+				25C17FDF19181619002C49AA /* ABButtonCycledChangeImagesIntention.m */,
 			);
 			path = Button;
 			sourceTree = "<group>";
 		};
-		25C17FB319179258002C49AA /* MapView */ = {
+		25C17FE019181619002C49AA /* MapView */ = {
 			isa = PBXGroup;
 			children = (
-				25C17FB419179258002C49AA /* ABMapViewActionsIntention.h */,
-				25C17FB519179258002C49AA /* ABMapViewActionsIntention.m */,
-				25C17FB619179258002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.h */,
-				25C17FB719179258002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.m */,
+				25C17FE119181619002C49AA /* ABMapViewActionsIntention.h */,
+				25C17FE219181619002C49AA /* ABMapViewActionsIntention.m */,
+				25C17FE319181619002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.h */,
+				25C17FE419181619002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.m */,
 			);
 			path = MapView;
 			sourceTree = "<group>";
 		};
-		25C17FB819179258002C49AA /* TableView */ = {
+		25C17FE519181619002C49AA /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				25C17FB919179258002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.h */,
-				25C17FBA19179258002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m */,
-				25C17FBB19179258002C49AA /* ABTableViewDelegateHideRowsIntention.h */,
-				25C17FBC19179258002C49AA /* ABTableViewDelegateHideRowsIntention.m */,
-				25C17FBD19179258002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.h */,
-				25C17FBE19179258002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.m */,
+				25C17FE619181619002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.h */,
+				25C17FE719181619002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m */,
+				25C17FE819181619002C49AA /* ABTableViewDelegateHideRowsIntention.h */,
+				25C17FE919181619002C49AA /* ABTableViewDelegateHideRowsIntention.m */,
+				25C17FEA19181619002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.h */,
+				25C17FEB19181619002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.m */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
 		};
-		25C17FBF19179258002C49AA /* TextField */ = {
+		25C17FEC19181619002C49AA /* TextField */ = {
 			isa = PBXGroup;
 			children = (
-				25C17FC019179258002C49AA /* ABTextFieldResignOnShouldReturnIntention.h */,
-				25C17FC119179258002C49AA /* ABTextFieldResignOnShouldReturnIntention.m */,
+				25C17FED19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.h */,
+				25C17FEE19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.m */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
 		};
-		25C17FC219179258002C49AA /* View */ = {
+		25C17FEF19181619002C49AA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				25C17FC319179258002C49AA /* ABViewsSinglePixelThicknessIntention.h */,
-				25C17FC419179258002C49AA /* ABViewsSinglePixelThicknessIntention.m */,
+				25C17FF019181619002C49AA /* ABViewsSinglePixelThicknessIntention.h */,
+				25C17FF119181619002C49AA /* ABViewsSinglePixelThicknessIntention.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		25C17FC519179258002C49AA /* WebView */ = {
+		25C17FF219181619002C49AA /* WebView */ = {
 			isa = PBXGroup;
 			children = (
-				25C17FC619179258002C49AA /* ABWebViewDelegateLoadUrlIntention.h */,
-				25C17FC719179258002C49AA /* ABWebViewDelegateLoadUrlIntention.m */,
+				25C17FF319181619002C49AA /* ABWebViewDelegateLoadUrlIntention.h */,
+				25C17FF419181619002C49AA /* ABWebViewDelegateLoadUrlIntention.m */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -299,11 +297,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 253F918C190D7CE100F7FC93 /* Build configuration list for PBXNativeTarget "ABIntentionsDemo" */;
 			buildPhases = (
-				D94BD47BD5AB4C7AA12C4733 /* Check Pods Manifest.lock */,
 				253F9156190D7CE100F7FC93 /* Sources */,
 				253F9157190D7CE100F7FC93 /* Frameworks */,
 				253F9158190D7CE100F7FC93 /* Resources */,
-				BCC3ED1A9B2A4C9DA50375BA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -390,59 +386,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		BCC3ED1A9B2A4C9DA50375BA /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D94BD47BD5AB4C7AA12C4733 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		253F9156190D7CE100F7FC93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25C17FD319179258002C49AA /* ABWebViewDelegateLoadUrlIntention.m in Sources */,
+				25C1800019181619002C49AA /* ABWebViewDelegateLoadUrlIntention.m in Sources */,
 				253F916A190D7CE100F7FC93 /* main.m in Sources */,
 				25C17FA81913E98E002C49AA /* ABTableViewController.m in Sources */,
-				25C17FCA19179258002C49AA /* ABBarButtonItemRadioSelectableIntention.m in Sources */,
-				25C17FCC19179258002C49AA /* ABMapViewActionsIntention.m in Sources */,
-				25C17FD119179258002C49AA /* ABTextFieldResignOnShouldReturnIntention.m in Sources */,
-				25C17FD019179258002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.m in Sources */,
-				25C17FD219179258002C49AA /* ABViewsSinglePixelThicknessIntention.m in Sources */,
-				25C17FC819179258002C49AA /* ABDelegateArrayIntention.m in Sources */,
-				25C17FC919179258002C49AA /* ABBarButtonItemObserversChainIntention.m in Sources */,
+				25C17FF719181619002C49AA /* ABBarButtonItemRadioSelectableIntention.m in Sources */,
+				25C17FF919181619002C49AA /* ABMapViewActionsIntention.m in Sources */,
+				25C17FFE19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.m in Sources */,
+				25C17FFD19181619002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.m in Sources */,
+				25C17FFF19181619002C49AA /* ABViewsSinglePixelThicknessIntention.m in Sources */,
+				25C17FF519181619002C49AA /* ABDelegateArrayIntention.m in Sources */,
+				25C17FF619181619002C49AA /* ABBarButtonItemObserversChainIntention.m in Sources */,
 				253F916E190D7CE100F7FC93 /* ABAppDelegate.m in Sources */,
-				25C17FCE19179258002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m in Sources */,
-				25C17FCD19179258002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.m in Sources */,
-				25C17FCB19179258002C49AA /* ABButtonCycledChangeImagesIntention.m in Sources */,
-				25C17FCF19179258002C49AA /* ABTableViewDelegateHideRowsIntention.m in Sources */,
+				25C17FFB19181619002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m in Sources */,
+				25C17FFA19181619002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.m in Sources */,
+				25C17FF819181619002C49AA /* ABButtonCycledChangeImagesIntention.m in Sources */,
+				25C17FFC19181619002C49AA /* ABTableViewDelegateHideRowsIntention.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,7 +527,6 @@
 		};
 		253F918D190D7CE100F7FC93 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7314365730A40FFB3197E73 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -579,7 +541,6 @@
 		};
 		253F918E190D7CE100F7FC93 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7314365730A40FFB3197E73 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
