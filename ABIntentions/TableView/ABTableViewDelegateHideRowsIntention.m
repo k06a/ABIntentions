@@ -62,6 +62,8 @@
     [self.tableView setContentOffset:CGPointMake(point.x,y) animated:YES];
 }
 
+#pragma mark - Table View
+
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (self.isCellsHidden && [[self indexPaths] containsObject:indexPath])
