@@ -11,8 +11,6 @@
 
 @interface ABMapViewActionsIntention ()
 
-@property (weak, nonatomic) IBOutlet MKMapView *mapView;
-
 @end
 
 @implementation ABMapViewActionsIntention
@@ -76,6 +74,5 @@
             return [self setUsertrackingModeFollow:sender];
     }
 }
-
 
 @end

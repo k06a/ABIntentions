@@ -10,21 +10,17 @@
 
 @interface ABBarButtonItemRadioSelectableIntention ()
 
-@property (strong, nonatomic) IBOutletCollection(UIBarButtonItem) NSArray *items;
-
-@property (assign, nonatomic) NSInteger selectedItemIndex;
-
 @end
 
 @implementation ABBarButtonItemRadioSelectableIntention
 
-- (IBAction)itemTiggered:(UIBarButtonItem *)item
+- (IBAction)itemTiggered:(id)sender
 {
-    UIBarButtonItem *prev = self.items[self.selectedItemIndex];
+    UIBarButtonItem *item = (id)sender;
+    UIBarButtonItem *prev = self.selectedItem;
     if (prev == item)
         return;
 
-    self.selectedItemIndex = [self.items indexOfObject:item];
     for (NSNumber *value in @[@(UIControlStateNormal),
                               @(UIControlStateSelected),
                               @(UIControlStateHighlighted),
@@ -41,6 +37,8 @@
     UIColor *prevTintColor = prev.tintColor;
     item.tintColor = prevTintColor;
     prev.tintColor = itemTintColor;
+    
+    self.selectedItem = item;
 }
 
 @end

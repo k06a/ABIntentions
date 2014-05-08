@@ -27,8 +27,6 @@
 
 @interface ABViewsSinglePixelThicknessIntention ()
 
-@property (nonatomic, strong) IBOutletCollection(UIView) NSArray *views;
-
 @end
 
 @implementation ABViewsSinglePixelThicknessIntention
@@ -38,8 +36,8 @@
     _views = views;
     for (UIView *view in views)
         for (NSLayoutConstraint *constraint in view.constraints)
-            if (constraint.constant == 1)
-                constraint.constant = 1/[UIScreen mainScreen].scale;
+            if (constraint.constant == 1.0)
+                constraint.constant = 1.0/[UIScreen mainScreen].scale;
 }
 
 @end

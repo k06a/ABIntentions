@@ -10,4 +10,15 @@
 
 @interface ABWebViewActionsIntention : NSObject
 
+@property (weak, nonatomic) IBOutlet id<UIWebViewDelegate> nextDelegate;
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (weak, nonatomic) IBOutlet UIView *activityView;
+@property (strong, nonatomic) NSString *url;
+
+@property (strong, nonatomic) IBOutletCollection(UIControl) NSArray *goBackControls;
+@property (strong, nonatomic) IBOutletCollection(UIControl) NSArray *goForwardControls;
+
+- (IBAction)goBack:(id)sender;
+- (IBAction)goForward:(id)sender;
+
 @end

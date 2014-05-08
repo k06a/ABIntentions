@@ -10,4 +10,7 @@
 
 @interface ABSearchBarDelegateZoomInMapViewIntention : NSObject
 
+@property (weak, nonatomic) IBOutlet id<UISearchBarDelegate> nextDelegate;
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+
 @end

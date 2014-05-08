@@ -27,4 +27,6 @@
 
 @interface ABViewsSinglePixelThicknessIntention : NSObject
 
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *views;
+
 @end

@@ -10,10 +10,6 @@
 
 @interface ABTableViewDelegateHideRowsIntention () <UITableViewDelegate>
 
-@property (weak, nonatomic) IBOutlet id<UITableViewDelegate> nextDelegate;
-@property (strong, nonatomic) IBOutletCollection(UITableViewCell) NSArray *cells;
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
-
 @property (assign, nonatomic) BOOL isCellsHidden;
 
 @end
@@ -60,6 +56,18 @@
     self.tableView.contentOffset = point;
     CGFloat y = MAX(-self.tableView.contentInset.top,MIN(point.y,[self tableHeight] - self.tableView.bounds.size.height));
     [self.tableView setContentOffset:CGPointMake(point.x,y) animated:YES];
+}
+
+- (IBAction)hideCells:(id)sender
+{
+    if (!self.isCellsHidden)
+        [self toggleVisibilityOfCells:sender];
+}
+
+- (IBAction)showCells:(id)sender
+{
+    if (self.isCellsHidden)
+        [self toggleVisibilityOfCells:sender];
 }
 
 #pragma mark - Table View

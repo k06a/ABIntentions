@@ -10,4 +10,8 @@
 
 @interface ABBarButtonItemRadioSelectableIntention : NSObject
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *selectedItem;
+
+- (IBAction)itemTiggered:(id)sender;
+
 @end

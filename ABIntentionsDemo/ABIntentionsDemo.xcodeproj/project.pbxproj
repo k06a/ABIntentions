@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250BC6B5191B66B3009CFDC0 /* ABBarButtonItemObserversArrayIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 250BC6B4191B66B3009CFDC0 /* ABBarButtonItemObserversArrayIntention.m */; };
 		253F915E190D7CE100F7FC93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253F915D190D7CE100F7FC93 /* Foundation.framework */; };
 		253F9160190D7CE100F7FC93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253F915F190D7CE100F7FC93 /* CoreGraphics.framework */; };
 		253F9162190D7CE100F7FC93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253F9161190D7CE100F7FC93 /* UIKit.framework */; };
@@ -52,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		250BC6B4191B66B3009CFDC0 /* ABBarButtonItemObserversArrayIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABBarButtonItemObserversArrayIntention.m; sourceTree = "<group>"; };
+		250BC6B6191B66B9009CFDC0 /* ABBarButtonItemObserversArrayIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABBarButtonItemObserversArrayIntention.h; sourceTree = "<group>"; };
 		253F915A190D7CE100F7FC93 /* ABIntentionsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABIntentionsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		253F915D190D7CE100F7FC93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		253F915F190D7CE100F7FC93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -229,11 +232,11 @@
 				25C17FD719181619002C49AA /* ABDelegateArrayIntention.h */,
 				25C17FD819181619002C49AA /* ABDelegateArrayIntention.m */,
 				25C17FD919181619002C49AA /* Button */,
-				25C17FE019181619002C49AA /* MapView */,
 				25C17FE519181619002C49AA /* TableView */,
 				25C17FEC19181619002C49AA /* TextField */,
 				25C17FEF19181619002C49AA /* View */,
 				25C17FF219181619002C49AA /* WebView */,
+				25C17FE019181619002C49AA /* MapView */,
 			);
 			name = ABIntentions;
 			path = ../../ABIntentions;
@@ -242,6 +245,8 @@
 		25C17FD919181619002C49AA /* Button */ = {
 			isa = PBXGroup;
 			children = (
+				250BC6B6191B66B9009CFDC0 /* ABBarButtonItemObserversArrayIntention.h */,
+				250BC6B4191B66B3009CFDC0 /* ABBarButtonItemObserversArrayIntention.m */,
 				25C17FDA19181619002C49AA /* ABBarButtonItemObserversChainIntention.h */,
 				25C17FDB19181619002C49AA /* ABBarButtonItemObserversChainIntention.m */,
 				25C17FDC19181619002C49AA /* ABBarButtonItemRadioSelectableIntention.h */,
@@ -419,6 +424,7 @@
 				25C18102191A0869002C49AA /* ABTableViewDelegateHideSectionIntention.m in Sources */,
 				25C17FF619181619002C49AA /* ABBarButtonItemObserversChainIntention.m in Sources */,
 				253F916E190D7CE100F7FC93 /* ABAppDelegate.m in Sources */,
+				250BC6B5191B66B3009CFDC0 /* ABBarButtonItemObserversArrayIntention.m in Sources */,
 				25C1800719181AFA002C49AA /* ABMapViewController.m in Sources */,
 				25C17FFB19181619002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m in Sources */,
 				25C17FFA19181619002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.m in Sources */,

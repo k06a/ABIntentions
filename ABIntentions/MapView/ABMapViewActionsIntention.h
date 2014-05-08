@@ -10,4 +10,16 @@
 
 @interface ABMapViewActionsIntention : NSObject
 
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+
+- (IBAction)setMapTypeStandard:(id)sender;
+- (IBAction)setMapTypeHybrid:(id)sender;
+- (IBAction)setMapTypeSatellite:(id)sender;
+- (IBAction)setMapTypeNext:(id)sender;
+
+- (IBAction)setUsertrackingModeFollow:(id)sender;
+- (IBAction)setUsertrackingModeFollowWithHeading:(id)sender;
+- (IBAction)setUsertrackingModeNone:(id)sender;
+- (IBAction)setUsertrackingModeNext:(id)sender;
+
 @end

@@ -28,9 +28,6 @@
 
 @interface ABTableViewDelegateRadioSelectableCellsIntention () <UITableViewDelegate>
 
-@property (weak, nonatomic) IBOutlet id<UITableViewDelegate> nextDelegate;
-@property (strong, nonatomic) IBOutletCollection(UITableViewCell) NSArray *cells;
-
 @end
 
 @implementation ABTableViewDelegateRadioSelectableCellsIntention

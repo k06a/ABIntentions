@@ -27,4 +27,6 @@
 
 @interface ABTextFieldResignOnShouldReturnIntention : NSObject
 
+@property (weak, nonatomic) IBOutlet id<UITextFieldDelegate> nextDelegate;
+
 @end

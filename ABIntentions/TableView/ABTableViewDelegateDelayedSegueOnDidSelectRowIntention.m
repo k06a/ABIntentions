@@ -27,9 +27,6 @@
 
 @interface ABTableViewDelegateDelayedSegueOnDidSelectRowIntention () <UITableViewDelegate>
 
-@property (weak, nonatomic) IBOutlet id<UITableViewDelegate> nextDelegate;
-@property (weak, nonatomic) IBOutlet UIViewController *viewController;
-
 @end
 
 @implementation ABTableViewDelegateDelayedSegueOnDidSelectRowIntention

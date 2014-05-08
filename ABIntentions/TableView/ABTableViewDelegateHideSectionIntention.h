@@ -10,4 +10,14 @@
 
 @interface ABTableViewDelegateHideSectionIntention : NSObject
 
+@property (weak, nonatomic) IBOutlet id<UITableViewDelegate> nextDelegate;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) NSNumber *section;
+
+@property (readonly, nonatomic) BOOL isSectionHidden;
+
+- (IBAction)toggleVisibilityOfSection:(id)sender;
+- (IBAction)hideSection:(id)sender;
+- (IBAction)showSection:(id)sender;
+
 @end

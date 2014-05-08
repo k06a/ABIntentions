@@ -10,10 +10,6 @@
 
 @interface ABTableViewDelegateHideSectionIntention () <UITableViewDelegate>
 
-@property (weak, nonatomic) IBOutlet id<UITableViewDelegate> nextDelegate;
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (strong, nonatomic) NSNumber *section;
-
 @property (assign, nonatomic) BOOL isSectionHidden;
 
 @end
@@ -38,7 +34,7 @@
     return [self.tableView sizeThatFits:CGSizeMake(self.tableView.frame.size.width, HUGE_VALF)].height;
 }
 
-- (IBAction)toggleVisibilityOfSections:(id)sender
+- (IBAction)toggleVisibilityOfSection:(id)sender
 {
     CGPoint point = self.tableView.bounds.origin;
     
@@ -46,6 +42,10 @@
     self.isSectionHidden = !self.isSectionHidden;
     UIView *headerView = [self.tableView headerViewForSection:self.section.integerValue];
     UIView *footerView = [self.tableView footerViewForSection:self.section.integerValue];
+    if (!self.isSectionHidden) {
+        headerView.hidden = NO;
+        footerView.hidden = NO;
+    }
     [UIView animateWithDuration:0.25 animations:^{
         CGFloat alpha = (self.isSectionHidden ? 0.0 : 1.0);
         for (UITableViewCell *cell in [self cells])
@@ -53,15 +53,28 @@
         headerView.alpha = alpha;
         footerView.alpha = alpha;
     } completion:^(BOOL finished) {
-        headerView.hidden = self.isSectionHidden;
-        footerView.hidden = self.isSectionHidden;
+        if (self.isSectionHidden) {
+            headerView.hidden = YES;
+            footerView.hidden = YES;
+        }
     }];
-    //[self.tableView reloadSections:[NSIndexSet indexSetWithIndex:self.section.integerValue] withRowAnimation:(UITableViewRowAnimationAutomatic)];
     [self.tableView endUpdates];
     
     self.tableView.contentOffset = point;
     CGFloat y = MAX(-self.tableView.contentInset.top,MIN(point.y,[self tableHeight] - self.tableView.bounds.size.height));
     [self.tableView setContentOffset:CGPointMake(point.x,y) animated:YES];
+}
+
+- (IBAction)hideSection:(id)sender
+{
+    if (!self.isSectionHidden)
+        [self toggleVisibilityOfSection:sender];
+}
+
+- (IBAction)showSection:(id)sender
+{
+    if (self.isSectionHidden)
+        [self toggleVisibilityOfSection:sender];
 }
 
 #pragma mark - Table View

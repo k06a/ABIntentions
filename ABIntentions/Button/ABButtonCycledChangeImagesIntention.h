@@ -10,4 +10,10 @@
 
 @interface ABButtonCycledChangeImagesIntention : NSObject
 
+@property (strong, nonatomic) NSString *path1;
+@property (strong, nonatomic) NSString *path2;
+@property (strong, nonatomic) NSString *path3;
+@property (strong, nonatomic) NSString *path4;
+@property (strong, nonatomic) NSString *path5;
+
 @end

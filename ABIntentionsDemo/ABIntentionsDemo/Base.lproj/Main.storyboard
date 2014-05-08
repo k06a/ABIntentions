@@ -584,7 +584,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                                     <rect key="frame" x="251" y="6" width="51" height="31"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <connections>
-                                                        <action selector="toggleVisibilityOfSections:" destination="ZoW-wG-QJ8" eventType="valueChanged" id="nqH-mz-hbI"/>
+                                                        <action selector="toggleVisibilityOfSection:" destination="ZoW-wG-QJ8" eventType="valueChanged" id="mUe-j0-3rn"/>
                                                     </connections>
                                                 </switch>
                                             </subviews>
@@ -615,8 +615,76 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="ewF-Es-Urt" style="IBUITableViewCellStyleDefault" id="df4-fp-FSk">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="2U6-iF-JBV" style="IBUITableViewCellStyleDefault" id="aST-yu-Ydg">
                                         <rect key="frame" x="0.0" y="255" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aST-yu-Ydg" id="KID-PV-cq2">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Cell 2-1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2U6-iF-JBV">
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Q5P-c5-gSz" style="IBUITableViewCellStyleDefault" id="QX7-qY-NLx">
+                                        <rect key="frame" x="0.0" y="299" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QX7-qY-NLx" id="2B2-jK-Ngi">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Cell 2-1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Q5P-c5-gSz">
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="8bM-S0-mRg" style="IBUITableViewCellStyleDefault" id="Syu-mX-yx3">
+                                        <rect key="frame" x="0.0" y="343" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Syu-mX-yx3" id="6nj-9a-Xz4">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Cell 2-1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8bM-S0-mRg">
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="aLh-M4-dz9" style="IBUITableViewCellStyleDefault" id="7UT-Xi-rUe">
+                                        <rect key="frame" x="0.0" y="387" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7UT-Xi-rUe" id="5bn-bj-aCt">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Cell 2-1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aLh-M4-dz9">
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="ewF-Es-Urt" style="IBUITableViewCellStyleDefault" id="df4-fp-FSk">
+                                        <rect key="frame" x="0.0" y="431" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="df4-fp-FSk" id="2sd-1u-AhK">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -637,7 +705,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                             <tableViewSection headerTitle="Section-3" id="eld-d1-Bqt">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="AE7-sU-FhR">
-                                        <rect key="frame" x="0.0" y="347" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="523" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AE7-sU-FhR" id="y6a-T6-DLQ">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -654,7 +722,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                                     <rect key="frame" x="251" y="6" width="51" height="31"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <connections>
-                                                        <action selector="toggleVisibilityOfSections:" destination="A9r-Qu-qW0" eventType="valueChanged" id="4P6-ek-ZWQ"/>
+                                                        <action selector="toggleVisibilityOfSection:" destination="A9r-Qu-qW0" eventType="valueChanged" id="HbP-tc-hF4"/>
                                                     </connections>
                                                 </switch>
                                             </subviews>
@@ -669,7 +737,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                             <tableViewSection headerTitle="Section-4" id="wpU-AC-9Mw">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="88" id="2kc-0l-FM7">
-                                        <rect key="frame" x="0.0" y="439" width="320" height="88"/>
+                                        <rect key="frame" x="0.0" y="615" width="320" height="88"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2kc-0l-FM7" id="qcP-PO-XsK">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="87"/>
@@ -700,7 +768,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="212" id="SA4-yE-bGx">
-                                        <rect key="frame" x="0.0" y="527" width="320" height="212"/>
+                                        <rect key="frame" x="0.0" y="703" width="320" height="212"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SA4-yE-bGx" id="ejV-4Q-vJL">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="211"/>
@@ -713,7 +781,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                                         <!--2014-04-28 05:10:27 +0000-->
                                                     </date>
                                                     <timeZone key="timeZone" name="America/Los_Angeles">
-                                                        <mutableData key="data">
+                                                        <data key="data">
 VFppZgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAC5AAAABAAAABCepkign7sVkKCGKqChmveQ
 y4kaoNIj9HDSYSYQ1v50INiArZDa/tGg28CQENzes6DdqayQ3r6VoN+JjpDgnneg4WlwkOJ+WaDjSVKQ
 5F47oOUpNJDmR1gg5xJREOgnOiDo8jMQ6gccIOrSFRDr5v4g7LH3EO3G4CDukdkQ76/8oPBxuxDxj96g
@@ -731,7 +799,7 @@ f5gqkAABAAECAwEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
 AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
 AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
 AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
-</mutableData>
+</data>
                                                     </timeZone>
                                                 </datePicker>
                                             </subviews>
@@ -747,7 +815,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                             <tableViewSection headerTitle="Section-5" id="tor-yh-lAB">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="n0X-Xb-FNv" style="IBUITableViewCellStyleDefault" id="EZF-46-WKo">
-                                        <rect key="frame" x="0.0" y="787" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="963" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EZF-46-WKo" id="4wD-45-44s">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -857,17 +925,17 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <barButtonItem title="Standard" id="uUK-Jv-lba">
                             <color key="tintColor" red="0.22352941179999999" green="0.76470588240000004" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="itemTriggered:" destination="cJU-sP-SZC" id="70A-aF-VEY"/>
+                                <action selector="itemTriggered:" destination="4CC-Vn-IPK" id="XDU-yX-TPZ"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem title="Hybrid" id="C3Y-2E-RhV">
                             <connections>
-                                <action selector="itemTriggered:" destination="PJK-he-c4C" id="9vC-sH-3KT"/>
+                                <action selector="itemTriggered:" destination="FpZ-5i-fOs" id="Odb-nh-skP"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem title="Satellite" id="43g-fC-e79">
                             <connections>
-                                <action selector="itemTriggered:" destination="ViP-ij-4eZ" id="TCJ-hT-l2P"/>
+                                <action selector="itemTriggered:" destination="C0W-nT-mh1" id="rpk-rI-ehd"/>
                             </connections>
                         </barButtonItem>
                     </toolbarItems>
@@ -893,44 +961,27 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <outlet property="mapView" destination="bVs-zE-7Nv" id="n33-sx-tvX"/>
                     </connections>
                 </customObject>
-                <customObject id="SDZ-3n-Tlv" customClass="ABBarButtonItemRadioSelectableIntention">
+                <customObject id="SDZ-3n-Tlv" userLabel="Radio Selectable Intention" customClass="ABBarButtonItemRadioSelectableIntention">
                     <connections>
-                        <outletCollection property="items" destination="uUK-Jv-lba" id="Iu7-bA-mLE"/>
-                        <outletCollection property="items" destination="C3Y-2E-RhV" id="d2A-Bc-9zL"/>
-                        <outletCollection property="items" destination="43g-fC-e79" id="eak-Ue-QxO"/>
+                        <outlet property="selectedItem" destination="uUK-Jv-lba" id="fe7-NR-bRm"/>
                     </connections>
                 </customObject>
-                <customObject id="cJU-sP-SZC" userLabel="Standard Button Chain 1" customClass="ABBarButtonItemObserversChainIntention">
+                <customObject id="4CC-Vn-IPK" userLabel="Standard Button" customClass="ABBarButtonItemObserversArrayIntention">
                     <connections>
-                        <action selector="setMapTypeStandard:" destination="bQL-dg-83l" id="anB-PZ-9Ig"/>
-                        <outlet property="nextObserver" destination="d3a-Or-pzR" id="OCi-F6-EOF"/>
+                        <action selector="itemTiggered:" destination="SDZ-3n-Tlv" eventType="valueChanged" id="b9u-4N-2tv"/>
+                        <action selector="setMapTypeStandard:" destination="bQL-dg-83l" eventType="valueChanged" id="3jM-YF-YQb"/>
                     </connections>
                 </customObject>
-                <customObject id="d3a-Or-pzR" userLabel="Standard Button Chain 2" customClass="ABBarButtonItemObserversChainIntention">
+                <customObject id="FpZ-5i-fOs" userLabel="Hybrid Button" customClass="ABBarButtonItemObserversArrayIntention">
                     <connections>
-                        <action selector="itemTiggered:" destination="SDZ-3n-Tlv" id="ktj-PU-FqY"/>
+                        <action selector="itemTiggered:" destination="SDZ-3n-Tlv" eventType="valueChanged" id="xwb-8Z-Xk8"/>
+                        <action selector="setMapTypeHybrid:" destination="bQL-dg-83l" eventType="valueChanged" id="qZh-ks-VS8"/>
                     </connections>
                 </customObject>
-                <customObject id="PJK-he-c4C" userLabel="Hybrid Button Chain 1" customClass="ABBarButtonItemObserversChainIntention">
+                <customObject id="C0W-nT-mh1" userLabel="Satellite Button" customClass="ABBarButtonItemObserversArrayIntention">
                     <connections>
-                        <action selector="setMapTypeHybrid:" destination="bQL-dg-83l" id="uQ5-lw-Uqx"/>
-                        <outlet property="nextObserver" destination="IYw-OA-VAH" id="R8k-g9-g7P"/>
-                    </connections>
-                </customObject>
-                <customObject id="IYw-OA-VAH" userLabel="Hybrid Button Chain 2" customClass="ABBarButtonItemObserversChainIntention">
-                    <connections>
-                        <action selector="itemTiggered:" destination="SDZ-3n-Tlv" id="eEY-h1-atS"/>
-                    </connections>
-                </customObject>
-                <customObject id="ViP-ij-4eZ" userLabel="Satellite Button Chain 1" customClass="ABBarButtonItemObserversChainIntention">
-                    <connections>
-                        <action selector="setMapTypeSatellite:" destination="bQL-dg-83l" id="thy-ry-lmx"/>
-                        <outlet property="nextObserver" destination="29z-ca-6ha" id="a5r-VN-4Mv"/>
-                    </connections>
-                </customObject>
-                <customObject id="29z-ca-6ha" userLabel="Satellite Button Chain 2" customClass="ABBarButtonItemObserversChainIntention">
-                    <connections>
-                        <action selector="itemTiggered:" destination="SDZ-3n-Tlv" id="QC6-22-Kkb"/>
+                        <action selector="itemTiggered:" destination="SDZ-3n-Tlv" eventType="valueChanged" id="rmh-HE-lHG"/>
+                        <action selector="setMapTypeSatellite:" destination="bQL-dg-83l" eventType="valueChanged" id="Ia5-Tf-1Do"/>
                     </connections>
                 </customObject>
             </objects>

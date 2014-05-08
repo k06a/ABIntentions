@@ -27,11 +27,11 @@
 
 @interface ABTextFieldResignOnShouldReturnIntention () <UITextFieldDelegate>
 
-@property (weak, nonatomic) IBOutlet id<UITextFieldDelegate> nextDelegate;
-
 @end
 
 @implementation ABTextFieldResignOnShouldReturnIntention
+
+#pragma mark - Text Field
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
@@ -40,6 +40,15 @@
     if ([self.nextDelegate respondsToSelector:@selector(textFieldShouldReturn:)])
         return [self.nextDelegate textFieldShouldReturn:textField];
     return YES;
+}
+
+#pragma mark - Message Forwarding
+
+- (BOOL)respondsToSelector:(SEL)aSelector
+{
+    if ([super respondsToSelector:aSelector])
+        return YES;
+    return [self.nextDelegate respondsToSelector:aSelector];
 }
 
 - (id)forwardingTargetForSelector:(SEL)aSelector
