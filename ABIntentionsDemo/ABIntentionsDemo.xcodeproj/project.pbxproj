@@ -21,6 +21,7 @@
 		253F917F190D7CE100F7FC93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253F9161190D7CE100F7FC93 /* UIKit.framework */; };
 		253F9187190D7CE100F7FC93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 253F9185190D7CE100F7FC93 /* InfoPlist.strings */; };
 		253F9189190D7CE100F7FC93 /* ABIntentionsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F9188190D7CE100F7FC93 /* ABIntentionsDemoTests.m */; };
+		257F1520191F7B7900C8D52D /* ABTableViewDelegatePiledCellsIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 257F151F191F7B7900C8D52D /* ABTableViewDelegatePiledCellsIntention.m */; };
 		2588945A1912F32300558AD1 /* geo_none@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258894571912F32300558AD1 /* geo_none@2x.png */; };
 		2588945B1912F32300558AD1 /* geo_follow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258894581912F32300558AD1 /* geo_follow@2x.png */; };
 		2588945C1912F32300558AD1 /* geo_heading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258894591912F32300558AD1 /* geo_heading@2x.png */; };
@@ -72,6 +73,8 @@
 		253F9184190D7CE100F7FC93 /* ABIntentionsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABIntentionsDemoTests-Info.plist"; sourceTree = "<group>"; };
 		253F9186190D7CE100F7FC93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		253F9188190D7CE100F7FC93 /* ABIntentionsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABIntentionsDemoTests.m; sourceTree = "<group>"; };
+		257F151E191F7B7900C8D52D /* ABTableViewDelegatePiledCellsIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewDelegatePiledCellsIntention.h; sourceTree = "<group>"; };
+		257F151F191F7B7900C8D52D /* ABTableViewDelegatePiledCellsIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewDelegatePiledCellsIntention.m; sourceTree = "<group>"; };
 		258894571912F32300558AD1 /* geo_none@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "geo_none@2x.png"; path = "Images/geo_none@2x.png"; sourceTree = SOURCE_ROOT; };
 		258894581912F32300558AD1 /* geo_follow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "geo_follow@2x.png"; path = "Images/geo_follow@2x.png"; sourceTree = SOURCE_ROOT; };
 		258894591912F32300558AD1 /* geo_heading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "geo_heading@2x.png"; path = "Images/geo_heading@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -108,7 +111,6 @@
 		25C18100191A0869002C49AA /* ABTableViewDelegateHideSectionIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewDelegateHideSectionIntention.h; sourceTree = "<group>"; };
 		25C18101191A0869002C49AA /* ABTableViewDelegateHideSectionIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewDelegateHideSectionIntention.m; sourceTree = "<group>"; };
 		98FBC4D0E8A04DA6BEA73EF6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7314365730A40FFB3197E73 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +144,6 @@
 				253F9182190D7CE100F7FC93 /* ABIntentionsDemoTests */,
 				253F915C190D7CE100F7FC93 /* Frameworks */,
 				253F915B190D7CE100F7FC93 /* Products */,
-				B7314365730A40FFB3197E73 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -279,6 +280,8 @@
 				25C17FE919181619002C49AA /* ABTableViewDelegateHideRowsIntention.m */,
 				25C18100191A0869002C49AA /* ABTableViewDelegateHideSectionIntention.h */,
 				25C18101191A0869002C49AA /* ABTableViewDelegateHideSectionIntention.m */,
+				257F151E191F7B7900C8D52D /* ABTableViewDelegatePiledCellsIntention.h */,
+				257F151F191F7B7900C8D52D /* ABTableViewDelegatePiledCellsIntention.m */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				25C1800719181AFA002C49AA /* ABMapViewController.m in Sources */,
 				25C17FFB19181619002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m in Sources */,
 				25C17FFA19181619002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.m in Sources */,
+				257F1520191F7B7900C8D52D /* ABTableViewDelegatePiledCellsIntention.m in Sources */,
 				25C17FF819181619002C49AA /* ABButtonCycledChangeImagesIntention.m in Sources */,
 				25C17FFC19181619002C49AA /* ABTableViewDelegateHideRowsIntention.m in Sources */,
 			);
