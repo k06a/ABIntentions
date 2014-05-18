@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ABPageViewControllerDataSourcePagesIntention : NSObject
+@interface ABPageViewControllerDataSourceStaticPagesIntention : NSObject
 
+@property (weak, nonatomic) IBOutlet id<UIPageViewControllerDataSource> nextDataSource;
 @property (weak, nonatomic) IBOutlet UIPageViewController *pageController;
 
 @property (strong, nonatomic) NSString *page1;
@@ -21,5 +22,10 @@
 @property (strong, nonatomic) NSString *page7;
 @property (strong, nonatomic) NSString *page8;
 @property (strong, nonatomic) NSString *page9;
+
+- (IBAction)nextPage:(id)sender;
+- (IBAction)prevPage:(id)sender;
+
+@property (assign, nonatomic) NSInteger currentPageIndex;
 
 @end

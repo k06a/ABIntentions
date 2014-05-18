@@ -1,18 +1,18 @@
 //
-//  ABWebViewController.m
+//  ABPageViewController.m
 //  ABIntentionsDemo
 //
-//  Created by Антон Буков on 05.05.14.
+//  Created by Антон Буков on 18.05.14.
 //  Copyright (c) 2014 Codeless Solutions. All rights reserved.
 //
 
-#import "ABWebViewController.h"
+#import "ABPageViewController.h"
 
-@interface ABWebViewController ()
+@interface ABPageViewController ()
 
 @end
 
-@implementation ABWebViewController
+@implementation ABPageViewController
 
 - (void)viewWillAppear:(BOOL)animated
 {

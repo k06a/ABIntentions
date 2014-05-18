@@ -1010,14 +1010,42 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <!--Page View Controller-->
         <scene sceneID="ixT-Aw-Gqt">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="S4g-DB-PZg" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="S4g-DB-PZg" customClass="ABPageViewController" sceneMemberID="viewController">
+                    <toolbarItems>
+                        <barButtonItem style="plain" id="N1g-Ws-Bzt">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g6N-Bz-kef">
+                                <rect key="frame" x="16" y="6" width="33" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="18"/>
+                                <state key="normal" title="◀">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="prevPage:" destination="FIG-Af-KLv" eventType="touchUpInside" id="7Rg-I5-qgm"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem style="plain" id="ISZ-sA-HK4">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rDv-7V-4mQ">
+                                <rect key="frame" x="59" y="6" width="33" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="18"/>
+                                <state key="normal" title="▶">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextPage:" destination="FIG-Af-KLv" eventType="touchUpInside" id="FGn-JG-2TI"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </toolbarItems>
                     <navigationItem key="navigationItem" id="h6u-2d-uYu"/>
                     <connections>
                         <outlet property="dataSource" destination="FIG-Af-KLv" id="Sxh-Ys-3t9"/>
                     </connections>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IOO-ch-GSc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="FIG-Af-KLv" customClass="ABPageViewControllerDataSourcePagesIntention">
+                <customObject id="FIG-Af-KLv" customClass="ABPageViewControllerDataSourceStaticPagesIntention">
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="page1" value="vc_1"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="page2" value="vc_2"/>
