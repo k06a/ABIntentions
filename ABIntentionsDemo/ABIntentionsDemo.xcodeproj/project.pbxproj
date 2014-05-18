@@ -24,6 +24,7 @@
 		2588945A1912F32300558AD1 /* geo_none@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258894571912F32300558AD1 /* geo_none@2x.png */; };
 		2588945B1912F32300558AD1 /* geo_follow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258894581912F32300558AD1 /* geo_follow@2x.png */; };
 		2588945C1912F32300558AD1 /* geo_heading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258894591912F32300558AD1 /* geo_heading@2x.png */; };
+		259783611928D71700C1B6A7 /* ABPageViewControllerDataSourcePagesIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 259783601928D71700C1B6A7 /* ABPageViewControllerDataSourcePagesIntention.m */; };
 		25C17FA81913E98E002C49AA /* ABTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FA71913E98E002C49AA /* ABTableViewController.m */; };
 		25C17FF519181619002C49AA /* ABDelegateArrayIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FD819181619002C49AA /* ABDelegateArrayIntention.m */; };
 		25C17FF619181619002C49AA /* ABBarButtonItemObserversChainIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C17FDB19181619002C49AA /* ABBarButtonItemObserversChainIntention.m */; };
@@ -75,6 +76,8 @@
 		258894571912F32300558AD1 /* geo_none@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "geo_none@2x.png"; path = "Images/geo_none@2x.png"; sourceTree = SOURCE_ROOT; };
 		258894581912F32300558AD1 /* geo_follow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "geo_follow@2x.png"; path = "Images/geo_follow@2x.png"; sourceTree = SOURCE_ROOT; };
 		258894591912F32300558AD1 /* geo_heading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "geo_heading@2x.png"; path = "Images/geo_heading@2x.png"; sourceTree = SOURCE_ROOT; };
+		2597835F1928D71700C1B6A7 /* ABPageViewControllerDataSourcePagesIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABPageViewControllerDataSourcePagesIntention.h; path = Controllers/ABPageViewControllerDataSourcePagesIntention.h; sourceTree = "<group>"; };
+		259783601928D71700C1B6A7 /* ABPageViewControllerDataSourcePagesIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABPageViewControllerDataSourcePagesIntention.m; path = Controllers/ABPageViewControllerDataSourcePagesIntention.m; sourceTree = "<group>"; };
 		25C17FA61913E98E002C49AA /* ABTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewController.h; sourceTree = "<group>"; };
 		25C17FA71913E98E002C49AA /* ABTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewController.m; sourceTree = "<group>"; };
 		25C17FD719181619002C49AA /* ABDelegateArrayIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABDelegateArrayIntention.h; sourceTree = "<group>"; };
@@ -226,11 +229,21 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		2597835E1928D6D600C1B6A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2597835F1928D71700C1B6A7 /* ABPageViewControllerDataSourcePagesIntention.h */,
+				259783601928D71700C1B6A7 /* ABPageViewControllerDataSourcePagesIntention.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		25C17FD619181619002C49AA /* ABIntentions */ = {
 			isa = PBXGroup;
 			children = (
 				25C17FD719181619002C49AA /* ABDelegateArrayIntention.h */,
 				25C17FD819181619002C49AA /* ABDelegateArrayIntention.m */,
+				2597835E1928D6D600C1B6A7 /* Controllers */,
 				25C17FD919181619002C49AA /* Button */,
 				25C17FE519181619002C49AA /* TableView */,
 				25C17FEC19181619002C49AA /* TextField */,
@@ -422,6 +435,7 @@
 				25C17FFF19181619002C49AA /* ABViewsSinglePixelThicknessIntention.m in Sources */,
 				25C17FF519181619002C49AA /* ABDelegateArrayIntention.m in Sources */,
 				25C18102191A0869002C49AA /* ABTableViewDelegateHideSectionIntention.m in Sources */,
+				259783611928D71700C1B6A7 /* ABPageViewControllerDataSourcePagesIntention.m in Sources */,
 				25C17FF619181619002C49AA /* ABBarButtonItemObserversChainIntention.m in Sources */,
 				253F916E190D7CE100F7FC93 /* ABAppDelegate.m in Sources */,
 				250BC6B5191B66B3009CFDC0 /* ABBarButtonItemObserversArrayIntention.m in Sources */,
