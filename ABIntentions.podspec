@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "ABIntentions"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Collection of iOS intentions. Inspired by http://chris.eidhof.nl/posts/intentions.html"
   s.homepage     = "https://github.com/k06a/ABIntentions"
   s.license      = 'MIT'
   s.author       = { "Anton Bukov" => "k06aaa@gmail.com" }
-  s.source       = { :git => "https://github.com/k06a/ABIntentions.git", :tag => '0.0.2' }
+  s.source       = { :git => "https://github.com/k06a/ABIntentions.git", :tag => '0.0.3' }
   s.platform     = :ios, '6.0'
   s.source_files = 'ABIntentions/*.{h,m}'
   s.requires_arc = true

@@ -46,7 +46,7 @@
     _pageController = pageController;
     
     dispatch_async(dispatch_get_main_queue(), ^{
-        UIViewController *viewController = [self viewControllerWithIdentifier:self.pages.firstObject];
+        UIViewController *viewController = [self viewControllerWithIdentifier:self.pages[self.initialPageIndex.integerValue]];
         [_pageController setViewControllers:@[viewController] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
     });
 }

@@ -26,6 +26,7 @@
 - (IBAction)nextPage:(id)sender;
 - (IBAction)prevPage:(id)sender;
 
+@property (strong, nonatomic) NSNumber *initialPageIndex;
 @property (assign, nonatomic) NSInteger currentPageIndex;
 
 @end

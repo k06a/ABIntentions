@@ -1050,6 +1050,9 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <userDefinedRuntimeAttribute type="string" keyPath="page1" value="vc_1"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="page2" value="vc_2"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="page3" value="vc_3"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="initialPageIndex">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="pageController" destination="S4g-DB-PZg" id="9C8-jI-lWJ"/>
