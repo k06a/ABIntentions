@@ -12,6 +12,7 @@
 
 @property (strong, nonatomic) NSArray *pages;
 @property (strong, nonatomic) NSMutableDictionary *viewControllers;
+@property (strong, nonatomic) NSMutableDictionary *pagesLoadedOnce;
 
 @end
 
@@ -41,6 +42,13 @@
     return _viewControllers;
 }
 
+- (NSMutableDictionary *)pagesLoadedOnce
+{
+    if (_pagesLoadedOnce == nil)
+        _pagesLoadedOnce = [NSMutableDictionary dictionary];
+    return _pagesLoadedOnce;
+}
+
 - (void)setPageController:(UIPageViewController *)pageController
 {
     _pageController = pageController;
@@ -61,9 +69,13 @@
 
 - (UIViewController *)viewControllerWithIdentifier:(NSString *)identifier
 {
+    if (self.loadPagesOnce && self.pagesLoadedOnce[identifier])
+        return self.pagesLoadedOnce[identifier];
     UIViewController *viewController = [self.pageController.storyboard instantiateViewControllerWithIdentifier:identifier];
     NSValue *key = [NSValue valueWithPointer:(__bridge const void *)(viewController)];
     self.viewControllers[key] = identifier;
+    if (self.loadPagesOnce)
+        self.pagesLoadedOnce[identifier] = viewController;
     return viewController;
 }
 

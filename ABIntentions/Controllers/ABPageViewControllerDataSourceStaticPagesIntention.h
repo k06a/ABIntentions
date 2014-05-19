@@ -26,6 +26,7 @@
 - (IBAction)nextPage:(id)sender;
 - (IBAction)prevPage:(id)sender;
 
+@property (assign, nonatomic) BOOL loadPagesOnce;
 @property (strong, nonatomic) NSNumber *initialPageIndex;
 @property (assign, nonatomic) NSInteger currentPageIndex;
 - (void)setCurrentPageIndex:(NSInteger)currentPageIndex animated:(BOOL)animated;
