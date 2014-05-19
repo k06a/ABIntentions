@@ -28,5 +28,6 @@
 
 @property (strong, nonatomic) NSNumber *initialPageIndex;
 @property (assign, nonatomic) NSInteger currentPageIndex;
+- (void)setCurrentPageIndex:(NSInteger)currentPageIndex animated:(BOOL)animated;
 
 @end
