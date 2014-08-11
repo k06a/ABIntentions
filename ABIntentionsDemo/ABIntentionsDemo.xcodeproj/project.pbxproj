@@ -21,6 +21,7 @@
 		253F917F190D7CE100F7FC93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253F9161190D7CE100F7FC93 /* UIKit.framework */; };
 		253F9187190D7CE100F7FC93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 253F9185190D7CE100F7FC93 /* InfoPlist.strings */; };
 		253F9189190D7CE100F7FC93 /* ABIntentionsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F9188190D7CE100F7FC93 /* ABIntentionsDemoTests.m */; };
+		256BA9A919994E9D008B95BE /* ABTextFieldBecameActiveOnLoadIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 256BA9A819994E9D008B95BE /* ABTextFieldBecameActiveOnLoadIntention.m */; };
 		2588945A1912F32300558AD1 /* geo_none@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258894571912F32300558AD1 /* geo_none@2x.png */; };
 		2588945B1912F32300558AD1 /* geo_follow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258894581912F32300558AD1 /* geo_follow@2x.png */; };
 		2588945C1912F32300558AD1 /* geo_heading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258894591912F32300558AD1 /* geo_heading@2x.png */; };
@@ -74,6 +75,9 @@
 		253F9184190D7CE100F7FC93 /* ABIntentionsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABIntentionsDemoTests-Info.plist"; sourceTree = "<group>"; };
 		253F9186190D7CE100F7FC93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		253F9188190D7CE100F7FC93 /* ABIntentionsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABIntentionsDemoTests.m; sourceTree = "<group>"; };
+		256BA9A619994D98008B95BE /* ABIntentions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABIntentions.h; sourceTree = "<group>"; };
+		256BA9A719994E9D008B95BE /* ABTextFieldBecameActiveOnLoadIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTextFieldBecameActiveOnLoadIntention.h; sourceTree = "<group>"; };
+		256BA9A819994E9D008B95BE /* ABTextFieldBecameActiveOnLoadIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTextFieldBecameActiveOnLoadIntention.m; sourceTree = "<group>"; };
 		258894571912F32300558AD1 /* geo_none@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "geo_none@2x.png"; path = "Images/geo_none@2x.png"; sourceTree = SOURCE_ROOT; };
 		258894581912F32300558AD1 /* geo_follow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "geo_follow@2x.png"; path = "Images/geo_follow@2x.png"; sourceTree = SOURCE_ROOT; };
 		258894591912F32300558AD1 /* geo_heading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "geo_heading@2x.png"; path = "Images/geo_heading@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -114,7 +118,6 @@
 		25C18100191A0869002C49AA /* ABTableViewDelegateHideSectionIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewDelegateHideSectionIntention.h; sourceTree = "<group>"; };
 		25C18101191A0869002C49AA /* ABTableViewDelegateHideSectionIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewDelegateHideSectionIntention.m; sourceTree = "<group>"; };
 		98FBC4D0E8A04DA6BEA73EF6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7314365730A40FFB3197E73 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +151,6 @@
 				253F9182190D7CE100F7FC93 /* ABIntentionsDemoTests */,
 				253F915C190D7CE100F7FC93 /* Frameworks */,
 				253F915B190D7CE100F7FC93 /* Products */,
-				B7314365730A40FFB3197E73 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -246,6 +248,7 @@
 		25C17FD619181619002C49AA /* ABIntentions */ = {
 			isa = PBXGroup;
 			children = (
+				256BA9A619994D98008B95BE /* ABIntentions.h */,
 				25C17FD719181619002C49AA /* ABDelegateArrayIntention.h */,
 				25C17FD819181619002C49AA /* ABDelegateArrayIntention.m */,
 				2597835E1928D6D600C1B6A7 /* Controllers */,
@@ -306,6 +309,8 @@
 			children = (
 				25C17FED19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.h */,
 				25C17FEE19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.m */,
+				256BA9A719994E9D008B95BE /* ABTextFieldBecameActiveOnLoadIntention.h */,
+				256BA9A819994E9D008B95BE /* ABTextFieldBecameActiveOnLoadIntention.m */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -436,6 +441,7 @@
 				25C17FF719181619002C49AA /* ABBarButtonItemRadioSelectableIntention.m in Sources */,
 				25C17FF919181619002C49AA /* ABMapViewActionsIntention.m in Sources */,
 				25C17FFE19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.m in Sources */,
+				256BA9A919994E9D008B95BE /* ABTextFieldBecameActiveOnLoadIntention.m in Sources */,
 				25C17FFD19181619002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.m in Sources */,
 				25C17FFF19181619002C49AA /* ABViewsSinglePixelThicknessIntention.m in Sources */,
 				25C17FF519181619002C49AA /* ABDelegateArrayIntention.m in Sources */,
