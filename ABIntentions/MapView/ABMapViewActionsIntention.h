@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class MKMapView;
+
 @interface ABMapViewActionsIntention : NSObject
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;

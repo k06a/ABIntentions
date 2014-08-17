@@ -22,7 +22,6 @@
 #import "ABTableViewDelegateRadioSelectableCellsIntention.h"
 #import "ABTableViewDelegateHideRowsIntention.h"
 #import "ABTableViewDelegateHideSectionIntention.h"
-#import "ABTableViewDelegatePiledCellsIntention.h"
 
 // TextField
 #import "ABTextFieldResignOnShouldReturnIntention.h"

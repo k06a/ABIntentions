@@ -24,6 +24,7 @@
 // THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
+#import "ABIntentions.h"
 
 @interface ABAppDelegate : UIResponder <UIApplicationDelegate>
 
