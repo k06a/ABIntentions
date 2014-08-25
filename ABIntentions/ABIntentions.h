@@ -17,6 +17,9 @@
 #import "ABBarButtonItemRadioSelectableIntention.h"
 #import "ABButtonCycledChangeImagesIntention.h"
 
+// Controllers
+#import "ABPageViewControllerDataSourceStaticPagesIntention.h"
+
 // TableView
 #import "ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.h"
 #import "ABTableViewDelegateRadioSelectableCellsIntention.h"
