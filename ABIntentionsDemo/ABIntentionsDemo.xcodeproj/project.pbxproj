@@ -43,6 +43,7 @@
 		25C1800419181AD1002C49AA /* ABWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C1800319181AD1002C49AA /* ABWebViewController.m */; };
 		25C1800719181AFA002C49AA /* ABMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C1800619181AFA002C49AA /* ABMapViewController.m */; };
 		25C18102191A0869002C49AA /* ABTableViewDelegateHideSectionIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C18101191A0869002C49AA /* ABTableViewDelegateHideSectionIntention.m */; };
+		25D8DFCF19AF6EDE00B20D9E /* ABTextFieldPlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D8DFCE19AF6EDE00B20D9E /* ABTextFieldPlaceholderColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,8 @@
 		25C1800619181AFA002C49AA /* ABMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABMapViewController.m; sourceTree = "<group>"; };
 		25C18100191A0869002C49AA /* ABTableViewDelegateHideSectionIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewDelegateHideSectionIntention.h; sourceTree = "<group>"; };
 		25C18101191A0869002C49AA /* ABTableViewDelegateHideSectionIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewDelegateHideSectionIntention.m; sourceTree = "<group>"; };
+		25D8DFCD19AF6EDE00B20D9E /* ABTextFieldPlaceholderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTextFieldPlaceholderColor.h; sourceTree = "<group>"; };
+		25D8DFCE19AF6EDE00B20D9E /* ABTextFieldPlaceholderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTextFieldPlaceholderColor.m; sourceTree = "<group>"; };
 		98FBC4D0E8A04DA6BEA73EF6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -311,6 +314,8 @@
 				25C17FEE19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.m */,
 				256BA9A719994E9D008B95BE /* ABTextFieldBecameActiveOnLoadIntention.h */,
 				256BA9A819994E9D008B95BE /* ABTextFieldBecameActiveOnLoadIntention.m */,
+				25D8DFCD19AF6EDE00B20D9E /* ABTextFieldPlaceholderColor.h */,
+				25D8DFCE19AF6EDE00B20D9E /* ABTextFieldPlaceholderColor.m */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -455,6 +460,7 @@
 				25C17FFB19181619002C49AA /* ABTableViewDelegateDelayedSegueOnDidSelectRowIntention.m in Sources */,
 				25C17FFA19181619002C49AA /* ABSearchBarDelegateZoomInMapViewIntention.m in Sources */,
 				25C17FF819181619002C49AA /* ABButtonCycledChangeImagesIntention.m in Sources */,
+				25D8DFCF19AF6EDE00B20D9E /* ABTextFieldPlaceholderColor.m in Sources */,
 				25C17FFC19181619002C49AA /* ABTableViewDelegateHideRowsIntention.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

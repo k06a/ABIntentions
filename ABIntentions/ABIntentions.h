@@ -29,6 +29,7 @@
 // TextField
 #import "ABTextFieldResignOnShouldReturnIntention.h"
 #import "ABTextFieldBecameActiveOnLoadIntention.h"
+#import "ABTextFieldPlaceholderColor.h"
 
 // View
 #import "ABViewsSinglePixelThicknessIntention.h"
