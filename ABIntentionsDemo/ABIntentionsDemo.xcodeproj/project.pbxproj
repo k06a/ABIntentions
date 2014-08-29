@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		250BC6B5191B66B3009CFDC0 /* ABBarButtonItemObserversArrayIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 250BC6B4191B66B3009CFDC0 /* ABBarButtonItemObserversArrayIntention.m */; };
+		2512682C19B08B6600EFF0ED /* ABViewWithPassthroughSubviewsIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2512682B19B08B6600EFF0ED /* ABViewWithPassthroughSubviewsIntention.m */; };
 		253F915E190D7CE100F7FC93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253F915D190D7CE100F7FC93 /* Foundation.framework */; };
 		253F9160190D7CE100F7FC93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253F915F190D7CE100F7FC93 /* CoreGraphics.framework */; };
 		253F9162190D7CE100F7FC93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253F9161190D7CE100F7FC93 /* UIKit.framework */; };
@@ -59,6 +60,8 @@
 /* Begin PBXFileReference section */
 		250BC6B4191B66B3009CFDC0 /* ABBarButtonItemObserversArrayIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABBarButtonItemObserversArrayIntention.m; sourceTree = "<group>"; };
 		250BC6B6191B66B9009CFDC0 /* ABBarButtonItemObserversArrayIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABBarButtonItemObserversArrayIntention.h; sourceTree = "<group>"; };
+		2512682A19B08B6600EFF0ED /* ABViewWithPassthroughSubviewsIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABViewWithPassthroughSubviewsIntention.h; sourceTree = "<group>"; };
+		2512682B19B08B6600EFF0ED /* ABViewWithPassthroughSubviewsIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABViewWithPassthroughSubviewsIntention.m; sourceTree = "<group>"; };
 		253F915A190D7CE100F7FC93 /* ABIntentionsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABIntentionsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		253F915D190D7CE100F7FC93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		253F915F190D7CE100F7FC93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -325,6 +328,8 @@
 			children = (
 				25C17FF019181619002C49AA /* ABViewsSinglePixelThicknessIntention.h */,
 				25C17FF119181619002C49AA /* ABViewsSinglePixelThicknessIntention.m */,
+				2512682A19B08B6600EFF0ED /* ABViewWithPassthroughSubviewsIntention.h */,
+				2512682B19B08B6600EFF0ED /* ABViewWithPassthroughSubviewsIntention.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -452,6 +457,7 @@
 				25C17FF519181619002C49AA /* ABDelegateArrayIntention.m in Sources */,
 				25C18102191A0869002C49AA /* ABTableViewDelegateHideSectionIntention.m in Sources */,
 				259783641929145300C1B6A7 /* ABPageViewController.m in Sources */,
+				2512682C19B08B6600EFF0ED /* ABViewWithPassthroughSubviewsIntention.m in Sources */,
 				259783611928D71700C1B6A7 /* ABPageViewControllerDataSourceStaticPagesIntention.m in Sources */,
 				25C17FF619181619002C49AA /* ABBarButtonItemObserversChainIntention.m in Sources */,
 				253F916E190D7CE100F7FC93 /* ABAppDelegate.m in Sources */,

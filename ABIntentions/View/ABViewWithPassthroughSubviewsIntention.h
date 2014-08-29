@@ -1,5 +1,5 @@
 //
-//  ABPopViewControllerOnDidSelectIndexPart.h
+//  ABViewWithPassthroughSubviewsIntention.h
 //  ABIntentionsDemo
 //
 //  Created by Anton Bukov on 27.04.14.
@@ -23,14 +23,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <Foundation/Foundation.h>
 
-@interface ABTableViewDelegateDelayedSegueOnDidSelectRowIntention : NSObject
+#import <UIKit/UIKit.h>
 
-@property (weak, nonatomic) IBOutlet id<UITableViewDelegate> nextDelegate;
-@property (weak, nonatomic) IBOutlet UIViewController *viewController;
+@interface ABViewWithPassthroughSubviewsIntention : UIView
 
-@property (strong, nonatomic) NSString *segueIdentifier;
-@property (strong, nonatomic) NSNumber *segueDelay;
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *views;
 
 @end
