@@ -34,6 +34,7 @@
 // View
 #import "ABViewsSinglePixelThicknessIntention.h"
 #import "ABViewWithPassthroughSubviewsIntention.h"
+#import "ABViewLayerPropertiesIntention.h"
 
 // WebView
 #import "ABWebViewActionsIntention.h"

@@ -6,15 +6,17 @@
 //  Copyright (c) 2014 Codeless Solutions. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface ABTableViewDelegateHideRowsIntention : NSObject
+@interface ABTableViewDelegateHideRowsIntention : NSObject <UITableViewDelegate>
 
-@property (weak, nonatomic) IBOutlet id<UITableViewDelegate> nextDelegate;
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (strong, nonatomic) IBOutletCollection(UITableViewCell) NSArray *cells;
+@property (nonatomic, weak) IBOutlet id<UITableViewDelegate> nextDelegate;
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) IBOutletCollection(UITableViewCell) NSArray *cells;
 
-@property (readonly, nonatomic) BOOL isCellsHidden;
+@property (nonatomic, strong) NSArray *indexPaths;
+
+@property (nonatomic, readonly) BOOL isCellsHidden;
 
 - (IBAction)toggleVisibilityOfCells:(id)sender;
 - (IBAction)hideCells:(id)sender;

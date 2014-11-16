@@ -1,5 +1,5 @@
 //
-//  ABDismissOnEnterIntention.h
+//  ABViewWithPassthroughSubviewsIntention.h
 //  ABIntentionsDemo
 //
 //  Created by Anton Bukov on 27.04.14.
@@ -23,10 +23,15 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+
 #import <UIKit/UIKit.h>
 
-@interface ABTextFieldResignOnShouldReturnIntention : NSObject
+@interface ABViewLayerPropertiesIntention : NSObject
 
-@property (weak, nonatomic) IBOutlet id<UITextFieldDelegate> nextDelegate;
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *views;
+
+@property (strong, nonatomic) NSNumber *cornerRadius;
+@property (strong, nonatomic) NSNumber *borderWidth;
+@property (strong, nonatomic) UIColor *borderColor;
 
 @end

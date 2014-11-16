@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		250BC6B5191B66B3009CFDC0 /* ABBarButtonItemObserversArrayIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 250BC6B4191B66B3009CFDC0 /* ABBarButtonItemObserversArrayIntention.m */; };
 		2512682C19B08B6600EFF0ED /* ABViewWithPassthroughSubviewsIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2512682B19B08B6600EFF0ED /* ABViewWithPassthroughSubviewsIntention.m */; };
+		251A3EC11A1670F8002909EF /* ABViewLayerPropertiesIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 251A3EC01A1670F8002909EF /* ABViewLayerPropertiesIntention.m */; };
 		253F915E190D7CE100F7FC93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253F915D190D7CE100F7FC93 /* Foundation.framework */; };
 		253F9160190D7CE100F7FC93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253F915F190D7CE100F7FC93 /* CoreGraphics.framework */; };
 		253F9162190D7CE100F7FC93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253F9161190D7CE100F7FC93 /* UIKit.framework */; };
@@ -62,6 +63,8 @@
 		250BC6B6191B66B9009CFDC0 /* ABBarButtonItemObserversArrayIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABBarButtonItemObserversArrayIntention.h; sourceTree = "<group>"; };
 		2512682A19B08B6600EFF0ED /* ABViewWithPassthroughSubviewsIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABViewWithPassthroughSubviewsIntention.h; sourceTree = "<group>"; };
 		2512682B19B08B6600EFF0ED /* ABViewWithPassthroughSubviewsIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABViewWithPassthroughSubviewsIntention.m; sourceTree = "<group>"; };
+		251A3EBF1A1670F8002909EF /* ABViewLayerPropertiesIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABViewLayerPropertiesIntention.h; sourceTree = "<group>"; };
+		251A3EC01A1670F8002909EF /* ABViewLayerPropertiesIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABViewLayerPropertiesIntention.m; sourceTree = "<group>"; };
 		253F915A190D7CE100F7FC93 /* ABIntentionsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABIntentionsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		253F915D190D7CE100F7FC93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		253F915F190D7CE100F7FC93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -330,6 +333,8 @@
 				25C17FF119181619002C49AA /* ABViewsSinglePixelThicknessIntention.m */,
 				2512682A19B08B6600EFF0ED /* ABViewWithPassthroughSubviewsIntention.h */,
 				2512682B19B08B6600EFF0ED /* ABViewWithPassthroughSubviewsIntention.m */,
+				251A3EBF1A1670F8002909EF /* ABViewLayerPropertiesIntention.h */,
+				251A3EC01A1670F8002909EF /* ABViewLayerPropertiesIntention.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -445,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25C1800419181AD1002C49AA /* ABWebViewController.m in Sources */,
+				251A3EC11A1670F8002909EF /* ABViewLayerPropertiesIntention.m in Sources */,
 				25C1800019181619002C49AA /* ABWebViewActionsIntention.m in Sources */,
 				253F916A190D7CE100F7FC93 /* main.m in Sources */,
 				25C17FA81913E98E002C49AA /* ABTableViewController.m in Sources */,
