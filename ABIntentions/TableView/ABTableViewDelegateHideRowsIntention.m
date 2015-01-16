@@ -65,15 +65,17 @@
     return _indexPaths;
 }
 
+/*
 - (CGFloat)tableHeight
 {
     return self.tableView.bounds.size.height;
     //return [self.tableView sizeThatFits:CGSizeMake(self.tableView.frame.size.width, HUGE_VALF)].height;
 }
+*/
 
 - (IBAction)toggleVisibilityOfCells:(id)sender
 {
-    CGPoint point = self.tableView.bounds.origin;
+    //CGPoint point = self.tableView.bounds.origin;
     
     [self.tableView beginUpdates];
     self.isCellsHidden = !self.isCellsHidden;

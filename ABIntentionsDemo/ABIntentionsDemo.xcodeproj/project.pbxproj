@@ -24,6 +24,7 @@
 		253F9187190D7CE100F7FC93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 253F9185190D7CE100F7FC93 /* InfoPlist.strings */; };
 		253F9189190D7CE100F7FC93 /* ABIntentionsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F9188190D7CE100F7FC93 /* ABIntentionsDemoTests.m */; };
 		256BA9A919994E9D008B95BE /* ABTextFieldBecameActiveOnLoadIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 256BA9A819994E9D008B95BE /* ABTextFieldBecameActiveOnLoadIntention.m */; };
+		257966111A1A32E9008D3203 /* UILabelWithTrueHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 257966101A1A32E9008D3203 /* UILabelWithTrueHeight.m */; };
 		2588945A1912F32300558AD1 /* geo_none@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258894571912F32300558AD1 /* geo_none@2x.png */; };
 		2588945B1912F32300558AD1 /* geo_follow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258894581912F32300558AD1 /* geo_follow@2x.png */; };
 		2588945C1912F32300558AD1 /* geo_heading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258894591912F32300558AD1 /* geo_heading@2x.png */; };
@@ -85,6 +86,8 @@
 		256BA9A619994D98008B95BE /* ABIntentions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABIntentions.h; sourceTree = "<group>"; };
 		256BA9A719994E9D008B95BE /* ABTextFieldBecameActiveOnLoadIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTextFieldBecameActiveOnLoadIntention.h; sourceTree = "<group>"; };
 		256BA9A819994E9D008B95BE /* ABTextFieldBecameActiveOnLoadIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTextFieldBecameActiveOnLoadIntention.m; sourceTree = "<group>"; };
+		2579660F1A1A32E9008D3203 /* UILabelWithTrueHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UILabelWithTrueHeight.h; path = Subclasses/UILabelWithTrueHeight.h; sourceTree = "<group>"; };
+		257966101A1A32E9008D3203 /* UILabelWithTrueHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UILabelWithTrueHeight.m; path = Subclasses/UILabelWithTrueHeight.m; sourceTree = "<group>"; };
 		258894571912F32300558AD1 /* geo_none@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "geo_none@2x.png"; path = "Images/geo_none@2x.png"; sourceTree = SOURCE_ROOT; };
 		258894581912F32300558AD1 /* geo_follow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "geo_follow@2x.png"; path = "Images/geo_follow@2x.png"; sourceTree = SOURCE_ROOT; };
 		258894591912F32300558AD1 /* geo_heading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "geo_heading@2x.png"; path = "Images/geo_heading@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -235,6 +238,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2579660B1A1A30B5008D3203 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				2579660F1A1A32E9008D3203 /* UILabelWithTrueHeight.h */,
+				257966101A1A32E9008D3203 /* UILabelWithTrueHeight.m */,
+			);
+			name = Subclasses;
+			sourceTree = "<group>";
+		};
 		258894561912F2EA00558AD1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +272,7 @@
 				256BA9A619994D98008B95BE /* ABIntentions.h */,
 				25C17FD719181619002C49AA /* ABDelegateArrayIntention.h */,
 				25C17FD819181619002C49AA /* ABDelegateArrayIntention.m */,
+				2579660B1A1A30B5008D3203 /* Subclasses */,
 				2597835E1928D6D600C1B6A7 /* Controllers */,
 				25C17FD919181619002C49AA /* Button */,
 				25C17FE519181619002C49AA /* TableView */,
@@ -458,6 +471,7 @@
 				25C17FF919181619002C49AA /* ABMapViewActionsIntention.m in Sources */,
 				25C17FFE19181619002C49AA /* ABTextFieldResignOnShouldReturnIntention.m in Sources */,
 				256BA9A919994E9D008B95BE /* ABTextFieldBecameActiveOnLoadIntention.m in Sources */,
+				257966111A1A32E9008D3203 /* UILabelWithTrueHeight.m in Sources */,
 				25C17FFD19181619002C49AA /* ABTableViewDelegateRadioSelectableCellsIntention.m in Sources */,
 				25C17FFF19181619002C49AA /* ABViewsSinglePixelThicknessIntention.m in Sources */,
 				25C17FF519181619002C49AA /* ABDelegateArrayIntention.m in Sources */,
