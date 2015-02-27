@@ -10,7 +10,6 @@
 
 @interface ABTableViewDelegateHideRowsIntention (Switch)
 
-@property (nonatomic, assign) BOOL isCellsHidden;
-
 - (IBAction)switchVisibilityOfCells:(UISwitch *)sender;
+
 @end

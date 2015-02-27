@@ -10,8 +10,6 @@
 
 @implementation ABTableViewDelegateHideRowsIntention (Switch)
 
-@dynamic isCellsHidden;
-
 - (IBAction)switchVisibilityOfCells:(UISwitch *)sender
 {
     if (self.isCellsHidden == !sender.isOn) return;
