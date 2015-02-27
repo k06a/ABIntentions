@@ -33,5 +33,6 @@
 @property (strong, nonatomic) NSNumber *cornerRadius;
 @property (strong, nonatomic) NSNumber *borderWidth;
 @property (strong, nonatomic) UIColor *borderColor;
+@property (assign, nonatomic) BOOL shouldRasterize;
 
 @end

@@ -34,12 +34,19 @@
     [self applyRadius];
 }
 
+- (void)setShouldRasterize:(BOOL)shouldRasterize
+{
+    _shouldRasterize = shouldRasterize;
+    [self applyRadius];
+}
+
 - (void)applyRadius
 {
     for (UIView *view in self.views) {
         view.layer.cornerRadius = self.cornerRadius.doubleValue;
         view.layer.borderWidth = self.borderWidth.doubleValue;
         view.layer.borderColor = self.borderColor.CGColor;
+        view.layer.shouldRasterize = self.shouldRasterize;
         view.layer.masksToBounds = YES;
     }
 }
